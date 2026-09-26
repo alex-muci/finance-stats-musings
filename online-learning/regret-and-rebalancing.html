@@ -180,10 +180,10 @@ window.MathJax={
 };
 </script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-svg-full.js" defer></script>
-<div class="layout"><nav class="toc" aria-label="Contents"><a class="brand" href="#top">Regret and Rebalancing</a><div class="brand-sub">Online learning, with applications to finance</div><div class="part">Part I · Prediction with Expert Advice</div><ol><li><a href="#ch1"><span class="n">1</span><span>The online learning game</span></a></li><li><a href="#ch2"><span class="n">2</span><span>Weighted Majority</span></a></li><li><a href="#ch3"><span class="n">3</span><span>Exponential weights and Hedge</span></a></li><li><a href="#ch4"><span class="n">4</span><span>Tracking a moving target</span></a></li><li><a href="#ch5"><span class="n">5</span><span>Lower bounds</span></a></li></ol><div class="part">Part II · Games, Equilibria and Their Uses</div><ol><li><a href="#ch6"><span class="n">6</span><span>Zero-sum games and minimax</span></a></li><li><a href="#ch7"><span class="n">7</span><span>Linear programs and boosting</span></a></li><li><a href="#ch8"><span class="n">8</span><span>The Perceptron</span></a></li></ol><div class="part">Part III · Online Convex Optimization</div><ol><li><a href="#ch9"><span class="n">9</span><span>Online gradient descent</span></a></li><li><a href="#ch10"><span class="n">10</span><span>Follow the Regularized Leader</span></a></li></ol><div class="part">Part IV · Finance</div><ol><li><a href="#ch11"><span class="n">11</span><span>Universal portfolios</span></a></li><li><a href="#ch12"><span class="n">12</span><span>Probability as a game, options</span></a></li></ol><div class="part">Part V · Bandits</div><ol><li><a href="#ch13"><span class="n">13</span><span>Stochastic bandits</span></a></li><li><a href="#ch14"><span class="n">14</span><span>Adversarial bandits</span></a></li></ol><div class="part">Part VI · Approachability, Calibration and Equilibrium</div><ol><li><a href="#ch15"><span class="n">15</span><span>Blackwell approachability</span></a></li><li><a href="#ch16"><span class="n">16</span><span>Calibration and correlated equilibria</span></a></li></ol><div class="part">Back matter · Toolkit, Reading and Projects</div><ol><li><a href="#appA"><span class="n">A</span><span>Mathematical toolkit</span></a></li><li><a href="#appB"><span class="n">B</span><span>Reading and projects</span></a></li></ol><div class="theme-row" role="group" aria-label="Theme"><button type="button" data-theme="light">Light</button><button type="button" data-theme="dark">Dark</button><button type="button" data-theme="system">Auto</button></div></nav><main><div class="page"><details class="mobile-toc"><summary>Contents</summary><ol><li><a href="#ch1">1. The online learning game</a></li><li><a href="#ch2">2. Weighted Majority</a></li><li><a href="#ch3">3. Exponential weights and Hedge</a></li><li><a href="#ch4">4. Tracking a moving target</a></li><li><a href="#ch5">5. Lower bounds</a></li><li><a href="#ch6">6. Zero-sum games and minimax</a></li><li><a href="#ch7">7. Linear programs and boosting</a></li><li><a href="#ch8">8. The Perceptron</a></li><li><a href="#ch9">9. Online gradient descent</a></li><li><a href="#ch10">10. Follow the Regularized Leader</a></li><li><a href="#ch11">11. Universal portfolios</a></li><li><a href="#ch12">12. Probability as a game, options</a></li><li><a href="#ch13">13. Stochastic bandits</a></li><li><a href="#ch14">14. Adversarial bandits</a></li><li><a href="#ch15">15. Blackwell approachability</a></li><li><a href="#ch16">16. Calibration and correlated equilibria</a></li><li><a href="#appA">A. Mathematical toolkit</a></li><li><a href="#appB">B. Reading and projects</a></li></ol></details><header class="cover" id="top">
+<div class="layout"><nav class="toc" aria-label="Contents"><a class="brand" href="#top">Regret and Rebalancing</a><div class="brand-sub">Online learning, with applications to finance</div><div class="part">Part I · Prediction with Expert Advice</div><ol><li><a href="#ch1"><span class="n">1</span><span>The online learning game</span></a></li><li><a href="#ch2"><span class="n">2</span><span>Weighted Majority</span></a></li><li><a href="#ch3"><span class="n">3</span><span>Exponential weights and Hedge</span></a></li><li><a href="#ch4"><span class="n">4</span><span>Tracking a moving target</span></a></li><li><a href="#ch5"><span class="n">5</span><span>Lower bounds</span></a></li></ol><div class="part">Part II · Games, Equilibria and Their Uses</div><ol><li><a href="#ch6"><span class="n">6</span><span>Zero-sum games and minimax</span></a></li><li><a href="#ch7"><span class="n">7</span><span>Linear programs and boosting</span></a></li><li><a href="#ch8"><span class="n">8</span><span>The Perceptron</span></a></li></ol><div class="part">Part III · Online Convex Optimization</div><ol><li><a href="#ch9"><span class="n">9</span><span>Online gradient descent</span></a></li><li><a href="#ch10"><span class="n">10</span><span>Follow the Regularized Leader</span></a></li></ol><div class="part">Part IV · Finance</div><ol><li><a href="#ch11"><span class="n">11</span><span>Universal portfolios</span></a></li><li><a href="#ch12"><span class="n">12</span><span>Probability as a game, options</span></a></li></ol><div class="part">Part V · Bandits</div><ol><li><a href="#ch13"><span class="n">13</span><span>Stochastic bandits</span></a></li><li><a href="#ch14"><span class="n">14</span><span>Adversarial bandits</span></a></li></ol><div class="part">Part VI · Approachability, Calibration and Equilibrium</div><ol><li><a href="#ch15"><span class="n">15</span><span>Blackwell approachability</span></a></li><li><a href="#ch16"><span class="n">16</span><span>Calibration and correlated equilibria</span></a></li></ol><div class="part">Part VII · Online Learning for Investors</div><ol><li><a href="#ch17"><span class="n">17</span><span>Adaptive learning rates and AdaHedge</span></a></li><li><a href="#ch18"><span class="n">18</span><span>Portfolio selection in practice</span></a></li></ol><div class="part">Back matter · Toolkit, Reading and Projects</div><ol><li><a href="#appA"><span class="n">A</span><span>Mathematical toolkit</span></a></li><li><a href="#appB"><span class="n">B</span><span>Reading and projects</span></a></li></ol><div class="theme-row" role="group" aria-label="Theme"><button type="button" data-theme="light">Light</button><button type="button" data-theme="dark">Dark</button><button type="button" data-theme="system">Auto</button></div></nav><main><div class="page"><details class="mobile-toc"><summary>Contents</summary><ol><li><a href="#ch1">1. The online learning game</a></li><li><a href="#ch2">2. Weighted Majority</a></li><li><a href="#ch3">3. Exponential weights and Hedge</a></li><li><a href="#ch4">4. Tracking a moving target</a></li><li><a href="#ch5">5. Lower bounds</a></li><li><a href="#ch6">6. Zero-sum games and minimax</a></li><li><a href="#ch7">7. Linear programs and boosting</a></li><li><a href="#ch8">8. The Perceptron</a></li><li><a href="#ch9">9. Online gradient descent</a></li><li><a href="#ch10">10. Follow the Regularized Leader</a></li><li><a href="#ch11">11. Universal portfolios</a></li><li><a href="#ch12">12. Probability as a game, options</a></li><li><a href="#ch13">13. Stochastic bandits</a></li><li><a href="#ch14">14. Adversarial bandits</a></li><li><a href="#ch15">15. Blackwell approachability</a></li><li><a href="#ch16">16. Calibration and correlated equilibria</a></li><li><a href="#ch17">17. Adaptive learning rates and AdaHedge</a></li><li><a href="#ch18">18. Portfolio selection in practice</a></li><li><a href="#appA">A. Mathematical toolkit</a></li><li><a href="#appB">B. Reading and projects</a></li></ol></details><header class="cover" id="top">
 <div class="kicker">A self-study textbook · after EECS 598 “Prediction, Learning, and Games”, University of Michigan, Fall 2013</div>
 <h1>Regret and Rebalancing</h1>
-<p class="lede">Online learning from first principles, with applications to portfolios, option pricing and trading. Sixteen chapters, worked proofs, finance sidebars, and exercises with solutions.</p>
+<p class="lede">Online learning from first principles, with applications to portfolios, option pricing and trading. Eighteen chapters, worked proofs, finance sidebars, and exercises with solutions.</p>
 <div class="cover-eq">$$\underbrace{\sum_{t=1}^{T}\ell_t(x_t)}_{\text{what you paid}}\;-\;\underbrace{\min_{x\in\mathcal K}\sum_{t=1}^{T}\ell_t(x)}_{\text{best fixed choice in hindsight}}\;=\;o(T)\quad\text{on every sequence.}$$</div>
 <div class="cover-meta">
 <div><b>Source course</b>Jacob Abernethy, EECS 598-006, 24 lectures</div>
@@ -195,7 +195,7 @@ window.MathJax={
 <section id="howto">
 <h3 style="margin-top:0">How to use this book</h3>
 <p>Each chapter follows one or more lectures from the course and links to the original scribe notes. Chapters open with what you will learn and close with key takeaways and exercises; solutions are folded under each exercise so you can try first. Boxes are colour-coded: <span style="color:var(--accent);font-weight:600;font-family:var(--sans)">blue</span> for theorems and lemmas, <span style="color:var(--def);font-weight:600;font-family:var(--sans)">green</span> for definitions and protocols, <span style="color:var(--gold);font-weight:600;font-family:var(--sans)">amber</span> for finance applications, <span style="color:var(--rust);font-weight:600;font-family:var(--sans)">red</span> for warnings and pitfalls. Exercise tags mark difficulty: <span class="tag easy" style="font-family:var(--sans);font-size:11px;font-weight:700;padding:1px 6px;border-radius:4px">warm-up</span> <span class="tag med" style="font-family:var(--sans);font-size:11px;font-weight:700;padding:1px 6px;border-radius:4px">core</span> <span class="tag hard" style="font-family:var(--sans);font-size:11px;font-weight:700;padding:1px 6px;border-radius:4px">challenge</span> <span class="tag fin-t" style="font-family:var(--sans);font-size:11px;font-weight:700;padding:1px 6px;border-radius:4px">finance</span>.</p>
-<p><b>Suggested paths.</b> For the core theory, read Chapters 1–3, 5, 6, 9 and 10. For finance, add Chapters 4, 11 and 12, then 13–14 for trading decisions under partial feedback. Part VI (Chapters 15–16) ties everything together and is the most abstract.</p>
+<p><b>Suggested paths.</b> For the core theory, read Chapters 1–3, 5, 6, 9 and 10. For finance, add Chapters 4, 11 and 12, then 13–14 for trading decisions under partial feedback, and finish with Part VII (Chapters 17–18), which takes the theory to the trading desk. Part VI (Chapters 15–16) ties the theory together and is the most abstract.</p>
 </section>
 <div class="part-title" id="part1"><div class="pn">Part I</div><h2>Prediction with Expert Advice</h2><p>How to learn from a crowd of forecasters when nobody promises the future looks like the past.</p></div>
 
@@ -267,7 +267,7 @@ for t = 1, …, T:
 <p>If at least one expert is perfect, Halving makes at most $\log_2 N$ mistakes, on any sequence.</p>
 </div>
 <div class="proof"><span class="lbl">Proof.</span>
-<p>We track the size of the version space $C_t$. Initially $\abs{C_1}=N$. The perfect expert is never removed, so $\abs{C_t}\ge1$ for all $t$. Whenever Halving errs, the majority of $C_t$ predicted wrongly and is removed, so $\abs{C_{t+1}}\le\tfrac12\abs{C_t}$. On other rounds $C$ can only shrink. After $M$ mistakes,</p>
+<p>We track the size of the version space $C_t$. Initially $\abs{C_1}=N$. The perfect expert is never removed, so $\abs{C_t}\ge1$ for all $t$. Whenever Halving errs, at least half of $C_t$ predicted wrongly and is removed, so $\abs{C_{t+1}}\le\tfrac12\abs{C_t}$. On other rounds $C$ can only shrink. After $M$ mistakes,</p>
 $$1\;\le\;\abs{C_{T+1}}\;\le\;N\,2^{-M},$$
 <p>so $2^M\le N$, i.e. $M\le\log_2 N$.</p>
 </div>
@@ -350,7 +350,7 @@ for t = 1, 2, …:
     predict ŷ_t ← 1  if  Σ_i w_{i,t} f_{i,t} ≥ ½ Σ_i w_{i,t},  else 0
     observe y_t
     w_{i,t+1} ← w_{i,t} · (1−ε)^{ 1[f_{i,t} ≠ y_t] }</pre>
-<p>Halving is the limit $\eps\to1$.</p>
+<p>The update makes sense for any $\eps\in(0,1]$, and at $\eps=1$ it is exactly Halving; the restriction $\eps\le\tfrac12$ is only needed for the analysis below.</p>
 </div>
 
 <div class="box thm"><span class="lbl">Theorem 2.4 <i>(WMA mistake bound)</i></span>
@@ -587,10 +587,10 @@ $$\sum_t\ip{p_t}{\ell_t}-L_{\mathbf i}\;\le\;\sqrt{\tfrac T2\big((k+1)\ln(NT)+1\
 <pre>input: η > 0, α ∈ (0,1)
 v_{j,1} ← 1/N for all j
 for t = 1, 2, …:
-    play p_t = v_t / Σ_j v_{j,t}
+    play p_t = v_t / Σ_j v_{t,j}
     observe ℓ_t
-    u_j ← v_{j,t} · exp(−η ℓ_{j,t})                 # loss update
-    v_{j,t+1} ← (1−α) u_j + (α/(N−1)) Σ_{i≠j} u_i    # share update</pre>
+    u_j ← v_{t,j} · exp(−η ℓ_{j,t})                 # loss update
+    v_{t+1,j} ← (1−α) u_j + (α/(N−1)) Σ_{i≠j} u_i    # share update</pre>
 <p>Cost: $O(N)$ per round.</p>
 </div>
 <div class="box thm"><span class="lbl">Proposition 4.6</span>
@@ -601,7 +601,7 @@ for t = 1, 2, …:
 $$\omega_{t+1}(i_{1:t+1})=\omega_t(i_{1:t})\,e^{-\eta\ell_{i_t,t}}\,P(i_{t+1}\mid i_t).$$
 <p>Summing over $i_{1:t}$ with $i_{t+1}=j$ yields $v_{t+1,j}=\sum_iv_{t,i}e^{-\eta\ell_{i,t}}P(j\mid i)$, which is the loss update followed by the share update.</p>
 </div>
-<p>The share step guarantees every expert keeps weight at least $\frac{\alpha}{N-1}\sum_iu_i$, so an expert that was bad for a long time can be picked up within a few rounds once it starts performing. That is precisely the property plain Hedge lacked.</p>
+<p>The share step guarantees every expert keeps weight at least $\frac{\alpha}{N-1}\sum_{i\ne j}u_i$ (at least $\frac{\alpha}{N-1}\sum_iu_i$ whenever $\alpha\le1-\frac1N$, which covers every rate used below), so an expert that was bad for a long time can be picked up within a few rounds once it starts performing. That is precisely the property plain Hedge lacked.</p>
 
 <div class="box fin"><span class="lbl">In finance</span>
 <p>Fixed Share is a regime-switching allocator without a regime model. With $N=5$ strategies over $T=2520$ trading days (ten years) and a comparator that switches regimes $k=4$ times, the bound gives roughly $\sqrt{1260\,(5\ln 12600+1)}\approx 246$ loss units, or $0.098$ per day, compared with $0.018$ per day for Hedge against a single fixed strategy. The price of tracking is visible and moderate. In practice $\alpha$ is a "forgetting rate": a larger $\alpha$ adapts faster but pays more in stable periods. Choosing it online is itself an experts problem (run Hedge over a grid of $\alpha$ values).</p>
@@ -617,7 +617,7 @@ $$\omega_{t+1}(i_{1:t+1})=\omega_t(i_{1:t})\,e^{-\eta\ell_{i_t,t}}\,P(i_{t+1}\mi
 <div class="ex"><span class="q"><b>4.1</b><span class="tag easy">warm-up</span> Verify that $\sum_{\mathbf i\in[N]^T}\Pi(\mathbf i)=1$.</span>
 <details class="sol"><summary>Solution</summary><div>Group sequences by switch positions and values: there are $N\binom{T-1}{\sigma}(N-1)^\sigma$ sequences with $\sigma$ switches, so the sum is $\sum_\sigma\binom{T-1}{\sigma}\alpha^\sigma(1-\alpha)^{T-1-\sigma}=1$ by the binomial theorem. Or simply note $\Pi$ is the law of a Markov chain.</div></details></div>
 
-<div class="ex"><span class="q"><b>4.2</b><span class="tag med">core</span> Show the share update can be written $v_{t+1}=(1-\beta)\tilde u+\beta\,\frac{\mathbf 1}{N}\sum_iu_i$ with $\tilde u=u$, and find $\beta$ in terms of $\alpha$ and $N$.</span>
+<div class="ex"><span class="q"><b>4.2</b><span class="tag med">core</span> Show the share update can be written $v_{t+1}=(1-\beta)\,u+\beta\,\frac{\mathbf 1}{N}\sum_iu_i$, and find $\beta$ in terms of $\alpha$ and $N$.</span>
 <details class="sol"><summary>Solution</summary><div>$(1-\alpha)u_j+\frac{\alpha}{N-1}(U-u_j)=\big(1-\alpha-\frac{\alpha}{N-1}\big)u_j+\frac{\alpha}{N-1}U$ where $U=\sum_iu_i$. Matching $\frac{\beta}{N}U$ gives $\beta=\frac{\alpha N}{N-1}$, and indeed $1-\beta=1-\alpha-\frac{\alpha}{N-1}$.</div></details></div>
 
 <div class="ex"><span class="q"><b>4.3</b><span class="tag med">core</span> Optimise $\alpha$ when $k$ is known. Show that $\alpha=k/(T-1)$ gives $\ln(1/\Pi)\le\ln N+k\ln(N-1)+(T-1)H(\tfrac{k}{T-1})$, where $H$ is binary entropy in nats, and that this is at most $\ln N+k\ln\frac{e(N-1)(T-1)}{k}$.</span>
@@ -672,7 +672,7 @@ $$\lim_{N\to\infty}\ \lim_{T\to\infty}\ \frac{V_{T,N}}{\sqrt{(T/2)\ln N}}\;=\;1.
 
 <div class="summary"><span class="lbl">Key takeaways</span><ul>
 <li>A random adversary lower-bounds the worst case. Against i.i.d. coin-flip losses every learner pays $T/2$ in expectation.</li>
-<li>The best of $N$ random walks gains about $\sqrt{2T\ln N}$ by luck, which forces regret $\Omega(\sqrt{T\ln N})$.</li>
+<li>The best of $N$ random walks gets ahead by about $\sqrt{2T\ln N}$ steps, i.e. $\sqrt{(T/2)\ln N}$ in loss units, which forces regret $\Omega(\sqrt{T\ln N})$.</li>
 <li>Hedge's $\sqrt{(T/2)\ln N}$ is optimal, constant included.</li>
 </ul></div>
 
@@ -748,7 +748,7 @@ $$\frac1T\sum_tp_t^\top Mq_t\;\ge\;\max_q\bar p^\top Mq-\eps_T\;\ge\;\min_p\max_
 <p>The average strategies form a $2\eps_T$-equilibrium: $\max_q\bar p^\top Mq\le V+2\eps_T$ and $\min_pp^\top M\bar q\ge V-2\eps_T$. With Hedge on both sides, $T=O(\ln(nm)/\eps^2)$ rounds suffice for an $\eps$-equilibrium, each costing $O(nm)$ arithmetic. If the column player instead <em>best-responds</em>, $q_t\in\argmax_qp_t^\top Mq$, it has non-positive regret and the guarantee improves to $\eps_T$.</p>
 </div>
 
-<p>Note that it is the <em>averages</em> $\bar p,\bar q$ that converge. The day-to-day strategies $p_t,q_t$ of two Hedge players typically cycle around the equilibrium without settling. More recent "optimistic" variants of Hedge make the last iterate converge too, at rate $O(1/T)$ for the average (Rakhlin and Sridharan 2013; Daskalakis, Deckelbaum and Kim 2011).</p>
+<p>Note that it is the <em>averages</em> $\bar p,\bar q$ that converge. The day-to-day strategies $p_t,q_t$ of two Hedge players typically cycle around the equilibrium without settling. More recent "optimistic" variants of Hedge, which add a guess of the next loss to the cumulative loss, converge faster: their averages converge at rate $O(\ln T/T)$ (Daskalakis, Deckelbaum and Kim 2011; Rakhlin and Sridharan 2013) and even $O(1/T)$ (Syrgkanis, Agarwal, Luo and Schapire 2015), and the last iterate itself converges (Daskalakis and Panageas 2019; Wei, Lee, Zhang and Luo 2021).</p>
 
 <div class="box warn"><span class="lbl">Fictitious play</span>
 <p>If both players use Follow the Leader (best response to the opponent's empirical average), we get Brown's fictitious play. Robinson (1951) proved it converges in zero-sum games, but with the rate $T^{-1/(n+m-2)}$. Karlin conjectured the rate is really $O(T^{-1/2})$, as simulations suggest. Daskalakis and Pan (2014) disproved the conjecture when ties are broken adversarially; with consistent tie-breaking it remains open. This is Homework 2, Problem 3(b).</p>
@@ -815,7 +815,7 @@ $$\eps\;&lt;\;\frac1T\sum_ta_{j_t}^\top x_t\;\le\;\frac1T\sum_ta_{j_t}^\top x^\c
 <p>The iteration count depends on the dimension only through $\ln n$ and not at all on the number of constraints $\abs{J}$, which may be exponential as long as we can find the most violated one. This is the Plotkin–Shmoys–Tardos framework; Arora, Hazan and Kale (2012) survey its many uses, from multicommodity flow to semidefinite programming. The price is the $1/\eps^2$ dependence, which makes it a tool for fast, low-precision solutions.</p>
 
 <div class="box fin"><span class="lbl">In finance: finding a pricing measure</span>
-<p>Suppose $S$ states of the world, and $m$ traded assets with discounted payoff vectors $\pi_j\in\R^S$ and prices $c_j$. By the fundamental theorem of asset pricing (in its one-period, finite-state form), there is no arbitrage iff there is a strictly positive state-price vector, i.e. a risk-neutral measure $q\in\simplex_S$ with $q^\top\pi_j=c_j$ for all $j$. Writing each equality as two inequalities $\pm(\pi_j-c_j\mathbf 1)^\top q\le0$ gives exactly Problem 7.1. Algorithm 7.2 either returns an approximately consistent pricing measure over, say, $S=10^6$ scenario states in $O(\rho^2\ln S/\eps^2)$ rounds, or its failure certifies (through LP duality) a portfolio that is an $\eps$-arbitrage. The Hedge weights over states behave like a Gibbs or maximum-entropy pricing measure, which connects to the entropy-based calibration of option surfaces used in practice (Avellaneda's weighted Monte Carlo).</p>
+<p>Suppose $S$ states of the world, and $m$ traded assets with discounted payoff vectors $\pi_j\in\R^S$ and prices $c_j$. By the fundamental theorem of asset pricing (in its one-period, finite-state form), there is no arbitrage iff there is a strictly positive state-price vector, i.e. a risk-neutral measure $q\in\simplex_S$ with $q^\top\pi_j=c_j$ for all $j$. Writing each equality as two inequalities $\pm(\pi_j-c_j\mathbf 1)^\top q\le0$ gives Problem 7.1 (up to strict positivity, which the approximate solver does not enforce). Algorithm 7.2 either returns an approximately consistent pricing measure over, say, $S=10^6$ scenario states in $O(\rho^2\ln S/\eps^2)$ rounds, or its failure certifies (through LP duality) a portfolio that is an $\eps$-arbitrage. The Hedge weights over states behave like a Gibbs or maximum-entropy pricing measure, which connects to the entropy-based calibration of option surfaces used in practice (Avellaneda's weighted Monte Carlo).</p>
 </div>
 
 <h3 id="ch7-boost">7.2 Boosting</h3>
@@ -867,10 +867,10 @@ $$\frac1T\sum_tM_{i,h_t}\;\le\;\frac1T\sum_tp_t^\top Me_{h_t}+\sqrt{\frac{2\ln N
 <div class="exercises"><h3 id="ch7-ex">Exercises</h3>
 <div class="ex"><span class="q"><b>7.1</b><span class="tag med">core</span> Show that the converse of Theorem 7.5 holds: if some mixture $q$ has margin $\gamma$ on every point, then WLA$_\gamma$ holds.</span>
 <details class="sol"><summary>Solution</summary><div>For any $p$, $p^\top Mq=\sum_ip_ie_i^\top Mq\le-\gamma$. Since $p^\top Mq$ is an average of $p^\top Me_h$ over $h\sim q$, some $h$ has $p^\top Me_h\le-\gamma$. So weak and strong learnability (with margins) are equivalent: this is minimax duality.</div></details></div>
-<div class="ex"><span class="q"><b>7.2</b><span class="tag med">core</span> Derive AdaBoost's step size: with weights $p_t$ and weak error $\eps_t$, find the $\eta$ that minimises the normaliser $Z_t=\sum_ip_{t,i}e^{\eta M_{i,h_t}}$ after flipping signs so that correct points are down-weighted, and show $\min_\eta Z_t=2\sqrt{\eps_t(1-\eps_t)}$.</span>
+<div class="ex"><span class="q"><b>7.2</b><span class="tag med">core</span> Derive AdaBoost's step size: with weights $p_t$ and weak error $\eps_t$, find the $\eta$ that minimises the normaliser $Z_t=\sum_ip_{t,i}e^{\eta M_{i,h_t}}$ (correct points, with $M_{i,h_t}=-1$, are down-weighted), and show $\min_\eta Z_t=2\sqrt{\eps_t(1-\eps_t)}$.</span>
 <details class="sol"><summary>Solution</summary><div>$Z(\eta)=\eps_te^{\eta}+(1-\eps_t)e^{-\eta}$. Setting $Z'=0$: $e^{2\eta}=\frac{1-\eps_t}{\eps_t}$, so $\eta=\frac12\ln\frac{1-\eps_t}{\eps_t}$ and $Z=2\sqrt{\eps_t(1-\eps_t)}=\sqrt{1-\gamma_t^2}$. The training error is at most $\prod_tZ_t$ because the exponential loss upper-bounds the 0/1 loss.</div></details></div>
-<div class="ex"><span class="q"><b>7.3</b><span class="tag fin-t">finance</span> Three states, a bond paying $(1,1,1)$ at price $1$, a stock paying $(0.8,1,1.3)$ at price $1$, and a call on the stock struck at $1$ paying $(0,0,0.3)$. For which call prices $c$ is there no arbitrage? Run two iterations of Algorithm 7.2 by hand with $c=0.1$.</span>
-<details class="sol"><summary>Solution</summary><div>We need $q\in\simplex_3$ with $0.8q_1+q_2+1.3q_3=1$ and $0.3q_3=c$. From the stock equation, $0.3q_3=0.2q_1$, so $q_1=1.5q_3$ and $q_2=1-2.5q_3$. Strict positivity needs $0&lt;q_3&lt;0.4$, so $c=0.3q_3\in(0,0.12)$. For $c=0.1$: $q_3=1/3$, $q_1=1/2$, $q_2=1/6$. Starting from uniform $q$, the stock constraint $(-0.2,0,0.3)^\top q=0.033&gt;0$ is violated, so Hedge moves weight from state 3 to state 1, as the solution requires.</div></details></div>
+<div class="ex"><span class="q"><b>7.3</b><span class="tag fin-t">finance</span> Three states, a bond paying $(1,1,1)$ at price $1$, a stock paying $(0.8,1,1.3)$ at price $1$, and a call on the stock struck at $1$ paying $(0,0,0.3)$. For which call prices $c$ is there no arbitrage? Run the first iteration of Algorithm 7.2 by hand with $c=0.1$, and say what the second will do.</span>
+<details class="sol"><summary>Solution</summary><div>We need $q\in\simplex_3$ with $0.8q_1+q_2+1.3q_3=1$ and $0.3q_3=c$. From the stock equation, $0.3q_3=0.2q_1$, so $q_1=1.5q_3$ and $q_2=1-2.5q_3$. Strict positivity needs $0&lt;q_3&lt;0.4$, so $c=0.3q_3\in(0,0.12)$. For $c=0.1$: $q_3=1/3$, $q_1=1/2$, $q_2=1/6$. Starting from uniform $q$, the stock constraint $(-0.2,0,0.3)^\top q=0.033&gt;0$ is violated (the others give $0$ and $-0.033$), so Hedge moves weight from state 3 toward state 1: with $\eta=1$, $q_2\propto(e^{0.2},1,e^{-0.3})=(0.412,0.338,0.250)$. At $q_2$ the most violated constraint is the opposite stock inequality, $(0.2,0,-0.3)^\top q_2=0.0075&gt;0$, so the second step pushes weight back into state 3; the iterates oscillate toward $(\tfrac12,\tfrac16,\tfrac13)$.</div></details></div>
 </div>
 </section>
 <section class="chapter" id="ch8" data-title="The Perceptron">
@@ -952,7 +952,7 @@ $$\Phi_t-\Phi_{t+1}=2y_t\,u\cdot x_t-2y_t\,w_t\cdot x_t-\norm{x_t}^2\;\ge\;2-0-1
 
 <section class="chapter" id="ch9" data-title="Online gradient descent">
 <div class="ch-head"><div class="eyebrow">Chapter 9</div><h2>Online Convex Optimization and Gradient Descent</h2>
-<div class="src">Based on Lectures 12–14 and 17 (Oct 16 – Nov 4, 2013; Lecture 12 by guest lecturer Ambuj Tewari) · <a href="https://web.eecs.umich.edu/~jabernet/eecs598course/fall2013/web/notes/lec12_101613.pdf">notes 12</a> · <a href="https://web.eecs.umich.edu/~jabernet/eecs598course/fall2013/web/notes/lec14_102313.pdf">notes 14</a> · <a href="https://web.eecs.umich.edu/~jabernet/eecs598course/fall2013/web/notes/lec17_110413.pdf">notes 17</a></div></div>
+<div class="src">Based on Lectures 12–14 and 17 (Oct 16 – Nov 4, 2013; Lecture 12 by guest lecturer Ambuj Tewari), with examples from Lectures 15–16 · <a href="https://web.eecs.umich.edu/~jabernet/eecs598course/fall2013/web/notes/lec12_101613.pdf">notes 12</a> · <a href="https://web.eecs.umich.edu/~jabernet/eecs598course/fall2013/web/notes/lec14_102313.pdf">notes 14</a> · <a href="https://web.eecs.umich.edu/~jabernet/eecs598course/fall2013/web/notes/lec17_110413.pdf">notes 17</a></div></div>
 
 <div class="goals"><b>In this chapter</b><ul>
 <li>The OCO protocol and how it contains everything so far.</li>
@@ -1039,7 +1039,7 @@ $$F(\bar x)\le\frac1T\sum_tF(x_t)=\frac1T\sum_tf_t(x_t)\le\frac1T\sum_tf_t(x^*)+
 <p>A single pass of OGD over the data (which is stochastic gradient descent) therefore attains excess risk $O(DG/\sqrt n)$, matching what uniform-convergence arguments give for empirical risk minimisation, with a one-line proof and no capacity arguments.</p>
 
 <div class="box fin"><span class="lbl">In finance</span>
-<p>Online least squares is the backbone of adaptive hedging. To hedge a position with $d$ instruments, choose hedge ratios $w_t$ each day and pay $f_t(w)=\frac12(\text{P\&L}_t^{\text{position}}+\ip{w}{\text{P\&L}_t^{\text{hedges}}})^2$. OGD adjusts the hedge ratios by a step against the gradient of yesterday's squared residual, an LMS filter. Theorem 9.3 guarantees that the cumulative squared tracking error is within $O(\sqrt T)$ of the best fixed hedge ratios in hindsight, with no assumption that returns are stationary. If you add a ridge penalty $\frac\lambda2\norm w^2$ to each loss, the losses become $\lambda$-strongly convex and Theorem 9.5 improves this to $O(\ln T)$ against the best ridge-penalised hedge.</p>
+<p>Online least squares is the backbone of adaptive hedging. To hedge a position with $d$ instruments, choose hedge ratios $w_t$ each day and pay $f_t(w)=\frac12(\text{P\&amp;L}_t^{\text{position}}+\ip{w}{\text{P\&L}_t^{\text{hedges}}})^2$. OGD adjusts the hedge ratios by a step against the gradient of yesterday's squared residual, an LMS filter. Theorem 9.3 guarantees that the cumulative squared tracking error is within $O(\sqrt T)$ of the best fixed hedge ratios in hindsight, with no assumption that returns are stationary. If you add a ridge penalty $\frac\lambda2\norm w^2$ to each loss, the losses become $\lambda$-strongly convex and Theorem 9.5 improves this to $O(\ln T)$ against the best ridge-penalised hedge.</p>
 </div>
 
 <div class="summary"><span class="lbl">Key takeaways</span><ul>
@@ -1111,7 +1111,7 @@ $$\Reg_T\;\le\;\frac{B^2}{\eta}+\eta G^2T\;=\;2BG\sqrt T\quad\text{at }\eta=\fra
 </tbody></table></div>
 
 <h4>Quadratic regularizer: OGD again</h4>
-<p>With linear losses $f_t(x)=\ip{g_t}{x}$ and $R(x)=\frac12\norm{x-x_1}^2$, FTRL is $x_{t+1}=\Pi_\cK\big(x_1-\eta\sum_{s\le t}g_s\big)$. This is the "lazy" projection variant of OGD (also called dual averaging). Unconstrained, it coincides with OGD; with projections the two differ slightly but share the same bound. With linear losses and no constraint, the stability term is exactly $\ip{g_t}{x_t-x_{t+1}}=\eta\norm{g_t}^2$, so $\Reg_T(u)\le\frac{\norm u^2}{2\eta}+\eta\sum_t\norm{g_t}^2$.</p>
+<p>With linear losses $f_t(x)=\ip{g_t}{x}$ and $R(x)=\frac12\norm{x-x_1}^2$, FTRL is $x_{t+1}=\Pi_\cK\big(x_1-\eta\sum_{s\le t}g_s\big)$. This is the "lazy" projection variant of OGD (also called dual averaging). Unconstrained, it coincides with OGD; with projections the two differ slightly but share the same bound. With linear losses and no constraint, the stability term is exactly $\ip{g_t}{x_t-x_{t+1}}=\eta\norm{g_t}^2$, so $\Reg_T(u)\le\frac{\norm{u-x_1}^2}{2\eta}+\eta\sum_t\norm{g_t}^2$ (Theorem 10.6 sharpens the second term by a factor $2$).</p>
 
 <h4>Entropic regularizer: Hedge again</h4>
 <p>On $\simplex_N$ with $f_t(x)=\ip{\ell_t}{x}$ and $R(x)=\sum_ix_i\ln x_i$, the Lagrangian condition $L_{i,t-1}+\frac1\eta(1+\ln x_i)+\lambda=0$ gives $x_{t,i}\propto e^{-\eta L_{i,t-1}}$: exactly Hedge. Negative entropy is $1$-strongly convex with respect to $\norm\cdot_1$ on the simplex (Pinsker's inequality), its range is $\ln N$, and $\norm{\ell_t}_\infty\le1$. Theorem 10.4 gives $2\sqrt{T\ln N}$, within a constant of Theorem 3.8. This is the answer to "why did Hedge beat OGD on the simplex?": the simplex is small in $\ell_1$, and losses are small in $\ell_\infty$.</p>
@@ -1153,7 +1153,7 @@ for t = 1, …, T:
 <p>With better perturbations the dependence on $N$ improves to $\sqrt{T\ln N}$. In fact, perturbing each cumulative loss by an independent Gumbel variable with scale $1/\eta$ makes the leader's distribution exactly the Hedge distribution (the Gumbel-max trick), so Hedge <em>is</em> a Follow the Perturbed Leader algorithm. Randomness and regularization are two ways of producing the same stability.</p>
 
 <div class="box fin"><span class="lbl">In finance</span>
-<p>The regularizer is a choice of what "a small change in the portfolio" means. Quadratic regularization penalises trades in absolute weight, which is reasonable for long-short books with roughly linear transaction costs. Entropic regularization penalises trades relative to current weights (moving from 1% to 2% costs as much as from 20% to 40%), which suits long-only allocations across many assets and keeps every asset's weight positive. The log-barrier penalises approaching zero weight very heavily, which suits problems where the loss blows up at the boundary, such as log-wealth. FTRL's $1/\eta$ is literally a turnover budget: smaller $\eta$ means less trading and higher range cost; larger $\eta$ means more trading and more exposure to noise.</p>
+<p>The regularizer is a choice of what "a small change in the portfolio" means. Quadratic regularization penalises trades in absolute weight, which is reasonable for long-short books with roughly linear transaction costs. Entropic regularization makes the update multiplicative (a given gradient moves a 1% weight to 2% exactly when it moves a 20% weight to 40%), which suits long-only allocations across many assets and keeps every asset's weight positive. The log-barrier penalises approaching zero weight very heavily, which suits problems where the loss blows up at the boundary, such as log-wealth. FTRL's $1/\eta$ is literally a turnover budget: smaller $\eta$ means less trading and higher range cost; larger $\eta$ means more trading and more exposure to noise.</p>
 </div>
 
 <div class="summary"><span class="lbl">Key takeaways</span><ul>
@@ -1216,7 +1216,7 @@ $$W_T(\mathrm{UP})=\frac{\int_{\simplex_n}W_T(x)\,dx}{\int_{\simplex_n}dx}.$$
 $$x_t=\frac{\int_{\simplex_n}x\,W_{t-1}(x)\,dx}{\int_{\simplex_n}W_{t-1}(x)\,dx}.$$
 <p>This is exactly EWA with $\eta=1$ over a continuum of experts under log loss, i.e. Bayesian averaging, as in Exercise 3.5.</p>
 
-<div class="box thm"><span class="lbl">Theorem 11.4 <i>(Cover 1991)</i></span>
+<div class="box thm"><span class="lbl">Theorem 11.4 <i>(Cover 1991; explicit bound Cover and Ordentlich 1996)</i></span>
 <p>For every sequence of price relatives and every $x^*\in\simplex_n$,</p>
 $$\ln W_T(x^*)-\ln W_T(\mathrm{UP})\;\le\;(n-1)\ln(T+1)+1.$$
 </div>
@@ -1369,7 +1369,7 @@ $$\overline\E[x]=\inf_P\ \sup_{t}\ \big(x(t)-\mathcal K^P(t)\big),$$
 <div class="proof"><span class="lbl">Proof.</span>
 <p><em>One bettor.</em> Bet the fraction $\eps\in[-\tfrac12,\tfrac12]$ of current capital each round, so capital after $n$ rounds is $K^\eps_n=\prod_{i\le n}(1+\eps\omega_i)&gt;0$. Since $\ln(1+x)\ge x-x^2$ for $\abs x\le\frac12$,</p>
 $$\ln K^\eps_n\;\ge\;\eps S_n-\eps^2n,\qquad S_n=\sum_{i\le n}\omega_i.$$
-<p><em>Many bettors.</em> Split initial capital: weight $2^{-k-2}$ each to the bettors with $\eps=+2^{-k}$ and $\eps=-2^{-k}$, $k=1,2,\dots$. Each account stays positive, so total capital $K_n\ge2^{-k-2}K_n^{\pm2^{-k}}$ for every $k$.</p>
+<p><em>Many bettors.</em> Split initial capital: weight $2^{-k-1}$ each to the bettors with $\eps=+2^{-k}$ and $\eps=-2^{-k}$, $k=1,2,\dots$. Each account stays positive, so total capital $K_n\ge2^{-k-1}K_n^{\pm2^{-k}}$ for every $k$.</p>
 <p><em>Conclusion.</em> If $\limsup S_n/n&gt;\delta&gt;0$, pick $k$ with $2^{-k}&lt;\delta/2$. Along the subsequence where $S_n&gt;\delta n$, $\ln K_n^{2^{-k}}\ge n\,2^{-k}(\delta-2^{-k})\to\infty$, so $K_n$ is unbounded. The case $\liminf S_n/n&lt;0$ uses the negative bettors.</p>
 </div>
 <p>Look at the structure of that proof: a mixture of constant-fraction betting strategies, with fixed prior weights, compared to the best of them in hindsight, in log-wealth. It is exactly the argument behind Cover's universal portfolio (Chapter 11) and EWA with a prior (Theorem 3.9). The law of large numbers, seen from the game-theoretic side, <em>is</em> a no-regret statement: a universal bettor gets rich whenever any simple bettor does, so if the averages do not converge, some simple bettor, and hence the universal one, gets rich.</p>
@@ -1550,10 +1550,10 @@ $$\E\sum_ip_{t,i}\tilde\ell_{t,i}=\ip{p_t}{\ell_t},\qquad\E\sum_ip_{t,i}\tilde\e
 <p>Refinements: the $\sqrt{\ln N}$ gap between the bounds is closed by the INF algorithm (Audibert and Bubeck 2009), which is FTRL with the regularizer $-\sum_i\sqrt{x_i}$. EXP3's regret holds only in expectation; its variance is large, and EXP3.P adds explicit exploration to get high-probability bounds.</p>
 
 <h3 id="ch14-linear">14.4 Bandits on combinatorial and convex sets</h3>
-<p>Suppose each round we choose an $s$–$t$ path in a graph with $d$ edges and pay the sum of edge delays, observing only the total delay of our path. Paths are exponentially many, so EXP3 over paths has regret $\sqrt{(\#\text{paths})\,T}$, which is useless. The fix is to work in the convex hull of path indicator vectors (the flow polytope $\cK\subset\R^d$) with linear losses $\ip{f_t}{x}$, and run FTRL on estimated loss vectors:</p>
+<p>Suppose each round we choose an $s$–$t$ path in a graph with $d$ edges and pay the sum of edge delays, observing only the total delay of our path. Paths are exponentially many, so EXP3 over paths has regret $\sqrt{2(\#\text{paths})\,T\ln(\#\text{paths})}$, which is useless. The fix is to work in the convex hull of path indicator vectors (the flow polytope $\cK\subset\R^d$) with linear losses $\ip{f_t}{x}$, and run FTRL on estimated loss vectors:</p>
 $$x_t=\argmin_{x\in\cK}\ \sum_{s&lt;t}\ip{\tilde f_s}{x}+\frac1\eta R(x),\quad\text{then play a random path }y_t\text{ with }\E y_t=x_t.$$
 <p>Since regret is linear in the losses for a fixed comparator, unbiased estimates again suffice in expectation. The problem is again the size of $\tilde f_t$: near the boundary of $\cK$ we must divide by small numbers.</p>
-<p>Abernethy, Hazan and Rakhlin (2008) solved this by choosing $R$ to be a <strong>self-concordant barrier</strong> for $\cK$ (for a polytope $\{x:a_k^\top x\le b_k\}$, the log-barrier $-\sum_k\ln(b_k-a_k^\top x)$) and measuring everything in the local norm $\norm{v}_{x}=\sqrt{v^\top\nabla^2R(x)v}$. The key geometric fact is that the Dikin ellipsoid $\{y:\norm{y-x}_x\le1\}$ lies inside $\cK$. Their algorithm, SCRiBLe, plays a random endpoint of one of the ellipsoid's principal axes, $y_t=x_t\pm\lambda_i^{-1/2}e_i$ (where $\lambda_i,e_i$ are eigenpairs of $\nabla^2R(x_t)$), and sets $\tilde f_t=d\,\ip{f_t}{y_t}\,\epsilon_t\lambda_i^{1/2}e_i$ with $\epsilon_t=\pm1$ the chosen sign. This estimate is unbiased and has local dual norm at most $d$, and the result is</p>
+<p>Abernethy, Hazan and Rakhlin (2008) solved this by choosing $R$ to be a <strong>self-concordant barrier</strong> for $\cK$ (for a polytope $\{x:a_k^\top x\le b_k\}$, the log-barrier $-\sum_k\ln(b_k-a_k^\top x)$) and measuring everything in the local norm $\norm{v}_{x}=\sqrt{v^\top\nabla^2R(x)v}$. The key geometric fact is that the Dikin ellipsoid $\{y:\norm{y-x}_x\le1\}$ lies inside $\cK$. Their algorithm, SCRiBLe, plays a random endpoint of one of the ellipsoid's principal axes, $y_t=x_t\pm\lambda_i^{-1/2}e_i$ (where $\lambda_i,e_i$ are eigenpairs of $\nabla^2R(x_t)$), and sets $\tilde f_t=d\,\ip{f_t}{y_t}\,\xi_t\lambda_i^{1/2}e_i$ with $\xi_t=\pm1$ the chosen sign. This estimate is unbiased and has local dual norm at most $d$, and the result is</p>
 $$\E\,\Reg_T=O\big(d\sqrt{\theta\,T\ln T}\big),$$
 <p>where $\theta$ is the barrier's self-concordance parameter ($\theta=m$ for the log-barrier of $m$ constraints). This was the first efficient $\sqrt T$ algorithm for bandit linear optimization.</p>
 
@@ -1621,7 +1621,8 @@ $$d\Big(\bar r_T,\,S\Big)\to0,\qquad \bar r_T=\frac1T\sum_{t=1}^Tr(p_t,q_t).$$
 </div>
 
 <div class="box alg"><span class="lbl">Algorithm 15.4 <i>(Blackwell's projection strategy)</i></span>
-<pre>for t = 0, 1, 2, …:
+<pre>play any p_1, observe q_1
+for t = 1, 2, …:
     if  r̄_t ∈ S:  play any p_{t+1}
     else:
         π ← Π_S(r̄_t)                               # closest point of S
@@ -1677,13 +1678,14 @@ $$r(w,\ell)=\big(\ip{w}{\ell}-\ell_1,\ \dots,\ \ip{w}{\ell}-\ell_N\big)\in\R^N,\
 <p>For $\norm\theta\le1$ and any $s\in S$, $\ip{\theta}{x}-h_S(\theta)\le\ip\theta{x-\Pi_S(x)}\le d(x,S)$. For $x\notin S$ take $\theta=\frac{x-\Pi_S(x)}{d(x,S)}$; the projection optimality condition gives $\ip\theta{s-\Pi_S(x)}\le0$ for all $s\in S$, so $h_S(\theta)=\ip\theta{\Pi_S(x)}$ and equality holds. For $x\in S$ take $\theta=0$.</p>
 </div>
 <div class="box alg"><span class="lbl">Algorithm 15.6 <i>(approachability via OCO)</i></span>
-<pre>maintain θ_t in the unit ball, updated by any OCO algorithm (e.g. OGD)
+<pre>maintain θ_t in the unit ball ∩ dom(h_S), updated by any OCO algorithm (e.g. OGD)
+    # for a cone S, dom(h_S) is the polar cone {θ : ⟨θ,s⟩ ≤ 0 for all s ∈ S}
 for t = 1, 2, …:
     play p_t with ⟨θ_t, r(p_t, q)⟩ ≤ h_S(θ_t) for all q     # halfspace-forcing
     observe q_t;  feed the OCO algorithm the convex loss
         f_t(θ) = h_S(θ) − ⟨θ, r(p_t, q_t)⟩</pre>
 </div>
-<p>Averaging, $\frac1T\sum_tf_t(\theta)=h_S(\theta)-\ip\theta{\bar r_T}$, so by Lemma 15.5, $\min_\theta\frac1T\sum_tf_t(\theta)=-d(\bar r_T,S)$. By the forcing step, $f_t(\theta_t)\ge0$. Hence $d(\bar r_T,S)\le\frac1T\big(\sum_tf_t(\theta_t)-\min_\theta\sum_tf_t(\theta)\big)=\frac{\Reg_T}{T}$. With OGD, $O(1/\sqrt T)$.</p>
+<p>Averaging, $\frac1T\sum_tf_t(\theta)=h_S(\theta)-\ip\theta{\bar r_T}$, so by Lemma 15.5, $\min_\theta\frac1T\sum_tf_t(\theta)=-d(\bar r_T,S)$. By the forcing step, $f_t(\theta_t)\ge0$. Hence $d(\bar r_T,S)\le\frac1T\big(\sum_tf_t(\theta_t)-\min_\theta\sum_tf_t(\theta)\big)=\frac{\Reg_T}{T}$. With OGD over this bounded convex domain, on which $f_t$ is convex and Lipschitz, $O(1/\sqrt T)$.</p>
 <p>So Blackwell's theorem, no-regret learning and OCO are three presentations of one idea. Blackwell's projection strategy corresponds to running Follow the Leader on the losses $f_t$; other OCO algorithms give other approachability strategies with different constants and geometry.</p>
 
 <div class="box fin"><span class="lbl">In finance</span>
@@ -1722,7 +1724,7 @@ for t = 1, 2, …:
 $$C_T=\sum_{i=1}^N\Big\lvert\frac1T\sum_{t=1}^T(q_i-y_t)\,\ind[p_t=q_i]\Big\rvert$$
 <p>satisfies $\limsup_TC_T\le c\,\eps$ for a constant $c$. Each term is the frequency of forecast $q_i$ times the gap between $q_i$ and the empirical frequency of $y=1$ on those days.</p>
 </div>
-<p>Calibration alone is a weak requirement: the forecaster who always announces the long-run base rate is calibrated on a stationary sequence and useless. It becomes interesting because it can be achieved on <em>every</em> sequence, and because (as §16.3 shows) it is strong enough to derive equilibria.</p>
+<p>Calibration alone is a weak requirement: the forecaster who always announces the long-run base rate is calibrated on a stationary sequence and useless. It becomes interesting because it can be achieved on <em>every</em> sequence, and because (as §16.2 shows) it is strong enough to derive equilibria.</p>
 
 <div class="box warn"><span class="lbl">Deterministic forecasters cannot be calibrated</span>
 <p>If $p_t$ is a deterministic function of the past, Nature sets $y_t=0$ when $p_t&gt;\tfrac12$ and $y_t=1$ otherwise. Every forecast is then off by at least $\tfrac12$ on every day it is used, so $C_T\ge\tfrac12$ (Oakes 1985; Dawid 1985). The forecaster must randomise, and Nature must not see the coin flip before choosing $y_t$.</p>
@@ -1734,7 +1736,7 @@ $$C_T=\sum_{i=1}^N\Big\lvert\frac1T\sum_{t=1}^T(q_i-y_t)\,\ind[p_t=q_i]\Big\rver
 <div class="proof"><span class="lbl">Proof via approachability.</span>
 <p>The forecaster picks $\sigma\in\simplex_N$ and announces $q_I$ with $I\sim\sigma$. Nature picks $\alpha\in[0,1]$ and $y\sim\mathrm{Bernoulli}(\alpha)$. Define the vector payoff</p>
 $$r(\sigma,\alpha)=\big(\sigma_1(q_1-\alpha),\ \dots,\ \sigma_N(q_N-\alpha)\big)\in\R^N.$$
-<p>It is biaffine, and $\norm{\bar r_T}_1$ is the expected calibration score. Target $S=\{x:\norm x_1\le\eps\}$, which is convex. Response condition: given $\alpha$, put all mass on the grid point nearest $\alpha$; then $r=(q_{i^*}-\alpha)e_{i^*}$ has $\ell_1$ norm at most $\eps$. By Theorem 15.3, $S$ is approachable.</p>
+<p>It is biaffine (so Nature's move can be taken to be the realised $y_t\in\{0,1\}$, and $r$ is computable), and each coordinate of $\bar r_T$ is the conditional expectation of the corresponding term of $C_T$; by Azuma–Hoeffding the realised terms are within $O(1/\sqrt T)$ of them, so $\E C_T\le\norm{\bar r_T}_1+O(N/\sqrt T)$. Target $S=\{x:\norm x_1\le\eps\}$, which is convex. Response condition: given $\alpha$, put all mass on the grid point nearest $\alpha$; then $r=(q_{i^*}-\alpha)e_{i^*}$ has $\ell_1$ norm at most $\eps$. By Theorem 15.3, $S$ is approachable.</p>
 </div>
 
 <h3 id="ch16-games">16.2 Calibration implies equilibrium</h3>
@@ -1787,7 +1789,7 @@ $$\Reg^{\mathrm{swap}}_T\;\le\;\sum_{i=1}^N\Reg_T(A_i)\;=\;O\big(\sqrt{NT\ln N}\
 <h3 id="ch16-map">16.4 The map of the course</h3>
 <figure>
 <svg viewBox="0 0 680 290" role="img" aria-label="Reductions between the main results of the course">
-<defs><marker id="arr2" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="var(--muted)"/></marker></defs>
+<defs><marker id="arr2" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="var(--muted)"/></marker><marker id="arr2s" markerWidth="9" markerHeight="9" refX="1" refY="4.5" orient="auto"><path d="M9,0 L0,4.5 L9,9 z" fill="var(--muted)"/></marker></defs>
 <g font-family="Instrument Sans, sans-serif" font-size="13" text-anchor="middle">
 <g stroke="var(--muted)" stroke-width="1.4" fill="none" marker-end="url(#arr2)">
 <path d="M177,59 L261,59"/>
@@ -1796,7 +1798,8 @@ $$\Reg^{\mathrm{swap}}_T\;\le\;\sum_{i=1}^N\Reg_T(A_i)\;=\;O\big(\sqrt{NT\ln N}\
 <path d="M263,151 L181,151"/>
 <path d="M397,151 L476,151"/>
 <path d="M110,172 L110,214"/>
-<path d="M160,130 L272,82"/>
+<path d="M160,130 L272,82" marker-start="url(#arr2s)"/>
+<path d="M482,78 L397,134"/>
 <path d="M612,59 C660,90 660,200 614,232"/>
 </g>
 <g fill="var(--card)" stroke="var(--rule)">
@@ -1812,7 +1815,7 @@ $$\Reg^{\mathrm{swap}}_T\;\le\;\sum_{i=1}^N\Reg_T(A_i)\;=\;O\big(\sqrt{NT\ln N}\
 <g fill="var(--faint)" font-size="11">
 <text x="219" y="52">§15.5</text><text x="437" y="52">§15.4</text><text x="345" y="108" text-anchor="start">§16.3</text>
 <text x="222" y="143">Ex. 16.4</text><text x="437" y="143">Thm 16.7</text><text x="118" y="200" text-anchor="start">Thm 16.4</text>
-<text x="196" y="100">§16.2</text><text x="636" y="200" text-anchor="end">Ch. 6–7</text>
+<text x="198" y="92" text-anchor="end">§16.2 / Thm 16.2</text><text x="452" y="112" text-anchor="start">§16.3</text><text x="636" y="200" text-anchor="end">Ch. 6–7</text>
 </g>
 </g>
 </svg>
@@ -1840,7 +1843,250 @@ $$\Reg^{\mathrm{swap}}_T\;\le\;\sum_{i=1}^N\Reg_T(A_i)\;=\;O\big(\sqrt{NT\ln N}\
 <div class="ex"><span class="q"><b>16.4</b><span class="tag hard">challenge</span> (Lecture 24.) Show that no-internal-regret implies calibration: treat grid points as experts with loss $(q_i-y_t)^2$, and show that a miscalibrated forecast bin can be profitably swapped to the grid point nearest its empirical frequency.</span></div>
 </div>
 </section>
-<div class="part-title" id="part7"><div class="pn">Back matter</div><h2>Toolkit, Reading and Projects</h2><p>The probabilistic and convex-analytic facts used throughout, and where to go next.</p></div>
+<div class="part-title" id="part7"><div class="pn">Part VII</div><h2>Online Learning for Investors</h2><p>Two chapters that take the theory to the trading desk: learning rates that tune themselves, and what regret bounds do and do not promise a portfolio.</p></div>
+
+<section class="chapter" id="ch17" data-title="Adaptive learning rates and AdaHedge">
+<div class="ch-head"><div class="eyebrow">Chapter 17</div><h2>Adaptive Learning Rates and AdaHedge</h2>
+<div class="src">Beyond the course · de Rooij, van Erven, Grünwald and Koolen, "Follow the leader if you can, Hedge if you must", <i>JMLR</i> 2014 · Cesa-Bianchi, Mansour and Stoltz, "Improved second-order bounds for prediction with expert advice", <i>Machine Learning</i> 2007</div></div>
+
+<div class="goals"><b>In this chapter</b><ul>
+<li>Why every Hedge bound so far needed a quantity you do not have: $T$, $L^*$, or the variance of the losses.</li>
+<li>The mix loss and the mixability gap: a decomposition of Hedge's loss that works for any sequence of learning rates.</li>
+<li>AdaHedge, which sets $\eta_t=\ln N/\Delta_{t-1}$ from the gaps it has already paid, and its parameter-free regret bound.</li>
+<li>What adaptivity buys when the "experts" are trading signals.</li>
+</ul></div>
+
+<h3 id="ch17-tuning">17.1 The tuning problem</h3>
+<p>Every bound for exponential weights has come with a learning rate to tune. Theorem 2.4 wants $\eps^*=\sqrt{2\ln N/M_T(i)}$; Corollary 3.5 wants $L^*$; Theorem 3.8 wants $T$. Two fixes were mentioned in Chapter 2: the <em>doubling trick</em> (Exercise 2.4), which guesses $T$, restarts each time the guess is exceeded and pays a factor $\frac{\sqrt2}{\sqrt2-1}\approx3.4$; and a <em>time-varying rate</em> $\eta_t\propto1/\sqrt t$, which we have not yet analysed because the potential argument of Chapter 3 needs a fixed $\eta$. Neither fix addresses the real issue: on easy data (one signal clearly best, or losses that vary little) the right $\eta$ is large and the regret should be far below $\sqrt{T\ln N}$, while on hard data it should be small. A tuning rule that looks only at $T$ cannot tell the two apart.</p>
+<div class="box fin"><span class="lbl">In finance: a learning rate is a memory length</span>
+<p>Weights $\propto e^{-\eta L_{i,t}}$ forget nothing, but $\eta$ decides how much a unit of past loss matters. With $\eta$ large the allocation snaps to the current leader after a few days: short memory, fast reaction, and whipsaw when signals trade places. With $\eta$ small it takes hundreds of days of outperformance to move the weights: long memory, slow reaction. Practitioners tune this by backtest, which is the data-snooping problem of Chapter 5 in another guise. An algorithm that sets $\eta$ from what the data have already cost it removes one knob from the backtest.</p>
+</div>
+
+<h3 id="ch17-mix">17.2 Mix loss and the mixability gap</h3>
+<p>Return to the Hedge setting (Protocol 3.6): losses $\ell_{t,i}\in[0,1]$, cumulative losses $L_{i,t}=\sum_{s\le t}\ell_{s,i}$, and the learner plays $p_t$ with $p_{t,i}\propto e^{-\eta_tL_{i,t-1}}$ for a rate $\eta_t&gt;0$ that may now change with $t$. The learner pays $h_t=\ip{p_t}{\ell_t}$. The key device is to compare $h_t$ with a quantity that telescopes.</p>
+<div class="box def"><span class="lbl">Definition 17.1 <i>(mix loss, mixability gap)</i></span>
+<p>With weights $p_t$ and learning rate $\eta_t$, the <strong>mix loss</strong> and the <strong>mixability gap</strong> of round $t$ are</p>
+$$m_t=-\frac1{\eta_t}\ln\sum_{i=1}^Np_{t,i}e^{-\eta_t\ell_{t,i}},\qquad \delta_t=h_t-m_t,$$
+<p>with cumulative versions $M_T=\sum_{t\le T}m_t$, $H_T=\sum_{t\le T}h_t$ and $\Delta_T=\sum_{t\le T}\delta_t$. So $H_T=M_T+\Delta_T$. (For $\eta_t=\infty$ the weights sit uniformly on the current leaders and $m_t$ is the smallest loss among them.)</p>
+</div>
+<p>The mix loss is what the learner would pay if it could "mix" the experts' losses through the exponential rather than average them: it is the log-loss of a Bayesian mixture (Exercise 3.5), and in the proof of Theorem 3.4 it is exactly the increase of the softmin potential, $m_t=\Phi_{\eta_t}(L_t)-\Phi_{\eta_t}(L_{t-1})$. Two facts about it do all the work.</p>
+
+<div class="box thm"><span class="lbl">Lemma 17.2 <i>(mix loss telescopes)</i></span>
+<p>If $\eta_1\ge\eta_2\ge\dots\ge\eta_T$, then for every expert $i$,</p>
+$$M_T\;\le\;L_{i,T}+\frac{\ln N}{\eta_T}.$$
+</div>
+<div class="proof"><span class="lbl">Proof.</span>
+<p>Write $\Phi_t(\eta)=-\frac1\eta\ln\frac1N\sum_ie^{-\eta L_{i,t}}$ for the softmin of Section 3.3 with the uniform prior, so $\Phi_0(\eta)=0$ and $m_t=\Phi_t(\eta_t)-\Phi_{t-1}(\eta_t)$. Then</p>
+$$M_T=\Phi_T(\eta_T)+\sum_{t=1}^{T-1}\big[\Phi_t(\eta_t)-\Phi_t(\eta_{t+1})\big].$$
+<p>$\Phi_t(\eta)$ is nonincreasing in $\eta$ (Exercise 17.2: it interpolates between the mean of the $L_{i,t}$ at $\eta\to0$ and their minimum at $\eta\to\infty$), and $\eta_{t+1}\le\eta_t$, so every bracket is $\le0$. Finally $\Phi_T(\eta_T)\le-\frac1{\eta_T}\ln\frac1Ne^{-\eta_TL_{i,T}}=L_{i,T}+\frac{\ln N}{\eta_T}$.</p>
+</div>
+<p>With a fixed $\eta$ this is the potential argument of Chapter 3 in one line. The point is that it survives a decreasing learning rate at no cost: only the last $\eta_T$ appears.</p>
+
+<div class="box thm"><span class="lbl">Lemma 17.3 <i>(the gap is small)</i></span>
+<p>For losses in $[0,1]$ and any $\eta_t&gt;0$, with $s_t=\sum_ip_{t,i}\ell_{t,i}^2$:</p>
+<ol>
+<li>$0\le\delta_t\le1$;</li>
+<li>$\delta_t\le\eta_t/8$;</li>
+<li>$\delta_t\le\tfrac12\eta_t\,s_t\le\tfrac12\eta_t\,h_t$.</li>
+</ol>
+</div>
+<div class="proof"><span class="lbl">Proof.</span>
+<p>Let $X$ take the value $\ell_{t,i}$ with probability $p_{t,i}$, so $h_t=\E X$ and $m_t=-\frac1{\eta}\ln\E e^{-\eta X}$ (writing $\eta$ for $\eta_t$). (1) Jensen gives $\E e^{-\eta X}\ge e^{-\eta\E X}$, i.e. $m_t\le h_t$; and $m_t\ge\min_i\ell_{t,i}\ge0$, $h_t\le1$. (2) Hoeffding's lemma (Lemma 3.7) with $s=-\eta$: $\ln\E e^{-\eta(X-\E X)}\le\eta^2/8$, i.e. $m_t\ge h_t-\eta/8$. (3) For $x\ge0$, $e^{-x}\le1-x+x^2/2$, so $\E e^{-\eta X}\le1-\eta h_t+\tfrac12\eta^2s_t=:u$. Then $m_t=-\frac1\eta\ln u\ge-\frac1\eta(u-1)=h_t-\tfrac12\eta s_t$ by (I2). Since $\ell^2\le\ell$ on $[0,1]$, $s_t\le h_t$.</p>
+</div>
+<p>Putting the two lemmas together: for any nonincreasing rates, $\Reg_T=H_T-L^*_T\le\frac{\ln N}{\eta_T}+\Delta_T$. The first term wants $\eta_T$ large, the gap wants the $\eta_t$ small, and the bounds on $\delta_t$ say how the two trade off. The simplest use is the time-varying rate.</p>
+<div class="box thm"><span class="lbl">Corollary 17.4 <i>(time-varying Hedge)</i></span>
+<p>Hedge with $\eta_t=\sqrt{8\ln N/t}$ has, simultaneously for every $T$,</p>
+$$\Reg_T\;\le\;\Big(\frac1{2\sqrt2}+\frac1{\sqrt2}\Big)\sqrt{T\ln N}\;&lt;\;1.07\sqrt{T\ln N}.$$
+</div>
+<div class="proof"><span class="lbl">Proof.</span>
+<p>$\frac{\ln N}{\eta_T}=\sqrt{T\ln N/8}$, and by Lemma 17.3(2), $\Delta_T\le\frac18\sum_{t\le T}\sqrt{8\ln N/t}\le\frac{\sqrt{8\ln N}}8\cdot2\sqrt T=\sqrt{T\ln N/2}$.</p>
+</div>
+<p>That is $1.5$ times the tuned constant of Theorem 3.8, with no knowledge of $T$ and no restarts. But it still ignores the data: $\eta_t$ falls like $1/\sqrt t$ whether the gaps have been large or zero.</p>
+
+<h3 id="ch17-adahedge">17.3 AdaHedge</h3>
+<p>The regret bound $\frac{\ln N}{\eta_T}+\Delta_T$ suggests balancing the two terms <em>as they are realised</em>: choose $\eta_t$ so that $\ln N/\eta_t$ equals the gap already accumulated.</p>
+<div class="box alg"><span class="lbl">Algorithm 17.5 <i>(AdaHedge, de Rooij, van Erven, Grünwald and Koolen 2014)</i></span>
+<pre>Δ_0 ← 0
+for t = 1, 2, …:
+    η_t ← ln N / Δ_{t−1}            # η_1 = ∞: Follow the Leader, uniform over leaders
+    p_{t,i} ∝ exp(−η_t L_{i,t−1})
+    observe ℓ_t;  h_t ← Σ_i p_{t,i} ℓ_{t,i}
+    m_t ← −(1/η_t) ln Σ_i p_{t,i} exp(−η_t ℓ_{t,i})
+    Δ_t ← Δ_{t−1} + (h_t − m_t)</pre>
+<p>$\Delta_t$ is nondecreasing, so $\eta_t$ is nonincreasing and Lemma 17.2 applies. The cost per round is $O(N)$, the same as Hedge.</p>
+</div>
+
+<div class="box thm"><span class="lbl">Theorem 17.6 <i>(AdaHedge regret)</i></span>
+<p>For losses in $[0,1]$, AdaHedge satisfies, with $S_T=\sum_{t\le T}\sum_ip_{t,i}\ell_{t,i}^2\le H_T\le T$,</p>
+$$\Reg_T\;\le\;2\Delta_T\;\le\;2\sqrt{S_T\ln N}+2\;\le\;2\sqrt{T\ln N}+2.$$
+</div>
+<div class="proof"><span class="lbl">Proof.</span>
+<p>By Lemma 17.2 and the choice of $\eta_T$, $\Reg_T\le\frac{\ln N}{\eta_T}+\Delta_T=\Delta_{T-1}+\Delta_T\le2\Delta_T$. To bound $\Delta_T$, look at how $\Delta_t^2$ grows:</p>
+$$\Delta_t^2-\Delta_{t-1}^2=2\Delta_{t-1}\delta_t+\delta_t^2\;\le\;2\Delta_{t-1}\cdot\frac{\eta_ts_t}{2}+\delta_t\;=\;s_t\ln N+\delta_t,$$
+<p>using Lemma 17.3(3) for the first term (when $\Delta_{t-1}=0$ the first term is $0$ anyway) and $\delta_t^2\le\delta_t$ from Lemma 17.3(1). Summing over $t$, $\Delta_T^2\le S_T\ln N+\Delta_T$. A number $x\ge0$ with $x^2-x\le c$ satisfies $x\le\frac{1+\sqrt{1+4c}}2\le1+\sqrt c$, which gives $\Delta_T\le\sqrt{S_T\ln N}+1$.</p>
+</div>
+
+<div class="box thm"><span class="lbl">Corollary 17.7 <i>(parameter-free small-loss bound)</i></span>
+<p>For losses in $[0,1]$, AdaHedge has $\;\Reg_T\le2\sqrt{L^*_T\ln N}+5\ln N+4$, where $L^*_T=\min_iL_{i,T}$.</p>
+</div>
+<div class="proof"><span class="lbl">Proof.</span>
+<p>$S_T\le H_T=L^*_T+\Reg_T$, so Theorem 17.6 gives $\Reg_T\le2\sqrt{(L^*_T+\Reg_T)\ln N}+2$: the regret appears on both sides, and solving the quadratic (Exercise 17.5) gives the claim.</p>
+</div>
+<p>Compare Corollary 3.5, $\sqrt{2L^*\ln N}+\ln N$, which needed $L^*$ in advance: AdaHedge gets the same $\sqrt{L^*\ln N}$ shape with no input at all. When one expert is perfect ($L^*=0$) the regret is $O(\ln N)$, like Halving; when every expert is mediocre it is $O(\sqrt{T\ln N})$, like tuned Hedge; and the algorithm did not need to be told which case it was in. De Rooij et al. prove a sharper version of Lemma 17.3 in terms of the <em>variance</em> $v_t$ of the loss under $p_t$ rather than the second moment, giving $\Reg_T\le2\sqrt{V_T\ln N}+\frac43\ln N+2$ with $V_T=\sum_tv_t\le T/4$: within a factor $\sqrt2$ of the tuned constant on hard data, and much better whenever the experts agree.</p>
+
+<div class="box warn"><span class="lbl">What AdaHedge is not</span>
+<p>It is not a doubling trick: it never restarts and never discards data. It is not a fixed schedule: $\eta_t$ is a function of the losses, and on easy sequences it stays large (the algorithm behaves like Follow the Leader). And it is not free of assumptions: the bounds use $\ell\in[0,1]$, so losses must be scaled, and a single huge loss will shrink $\eta$ for a long time. De Rooij et al. also give FlipFlop, which alternates between AdaHedge and Follow the Leader and inherits the better of the two guarantees.</p>
+</div>
+
+<div class="demo" id="demo-ada">
+<div class="ctrls">
+<label for="ada-eta">fixed Hedge rate η <input id="ada-eta" type="range" min="-3" max="1" step="0.05" value="-1"><output id="ada-eta-o"></output></label>
+<label for="ada-n">experts N <input id="ada-n" type="range" min="2" max="64" step="1" value="10"><output id="ada-n-o"></output></label>
+<button id="ada-run" type="button">New sequence</button>
+</div>
+<canvas id="ada-canvas" aria-label="AdaHedge versus fixed-rate Hedge regret over time"></canvas>
+<div class="legend"><span style="--c:var(--accent)">AdaHedge regret</span><span style="--c:var(--gold)">bound 2√(S_t ln N) + 2</span><span style="--c:var(--faint)">Hedge with the fixed η</span></div>
+<div class="readout" id="ada-read"></div>
+<figcaption>The same simulated market as the Chapter 3 demo ($N$ signals, $T=2000$ days, drifting Bernoulli losses, the current leader periodically punished). Move the slider to see how sensitive fixed-rate Hedge is to $\eta$; AdaHedge has no slider. Its learning rate at the end of the run is shown in the readout: on this market it usually lands near the rate you would have tuned by hand, without being told $T$.</figcaption>
+</div>
+
+<h3 id="ch17-beyond">17.4 Beyond AdaHedge</h3>
+<p>AdaHedge is one member of a family of <em>parameter-free</em> or <em>adaptive</em> methods that has grown rapidly since the course was given. Three are worth knowing.</p>
+<ul>
+<li><b>Second-order bounds.</b> Cesa-Bianchi, Mansour and Stoltz (2007) obtain regret $O\big(\sqrt{\sum_t\mathrm{Var}_{p_t}(\ell_t)\,\ln N}+\ln N\big)$ with a tuned rate; AdaHedge achieves it without tuning. When all signals have similar daily losses, as diversified strategies often do, the variance term is far below $T/4$.</li>
+<li><b>Quantile and Squint bounds.</b> Koolen and van Erven (2015) replace $\ln N$ by $\ln(1/\pi(\text{good experts}))$: if a constant fraction of a large library is nearly as good as the best, the regret does not grow with the library size at all. Chapter 5's data-snooping haircut $\sqrt{(T/2)\ln N}$ is then an overestimate.</li>
+<li><b>Coin betting.</b> Orabona and Pál (2016) turn parameter-free OCO into a betting problem: a learner that bets on the sign of the gradients with a Kelly-like fraction (Chapter 11) achieves $O\big(\norm u\sqrt{T\ln(1+\norm uT)}\big)$ regret against every comparator $u$ at once, with no step size. It is the online-learning counterpart of the "bet a fraction of wealth" rule and closes a loop between Parts III and IV.</li>
+</ul>
+<div class="box fin"><span class="lbl">In finance: a fund of signals</span>
+<p>Suppose a desk runs $N$ forecasting models for tomorrow's return, each producing a number in $[-1,1]$, and scores them by a bounded loss such as $\ell(f,r)=\tfrac12\abs{f-\mathrm{sign}(r)}$ or a clipped squared error. AdaHedge on these losses is a model-combination rule with no lookback window and no learning rate to backtest, and Corollary 17.7 says its cumulative score is within $2\sqrt{L^*\ln N}+O(\ln N)$ of the best model in hindsight. If the models are strategies that reinvest wealth, the natural loss is $-\ln(\text{wealth relative})$ and the natural combination is buy-and-hold across strategies (Exercise 17.4), which is AdaHedge's fixed point at $\eta=1$: for log loss the mixability gap is zero (Exercise 3.5), so no learning rate needs to be learned. Regime changes are still Fixed Share's job (Chapter 4); the two ideas combine, with AdaHedge choosing $\eta$ and the switching prior choosing $\alpha$.</p>
+</div>
+
+<div class="summary"><span class="lbl">Key takeaways</span><ul>
+<li>Hedge's loss splits as $H_T=M_T+\Delta_T$: a mix loss that telescopes to $L^*+\ln N/\eta_T$ for any nonincreasing rates, plus a gap $\delta_t\le\min\{1,\eta_t/8,\eta_th_t/2\}$.</li>
+<li>Setting $\eta_t=\ln N/\Delta_{t-1}$ balances the two terms online. AdaHedge's regret is at most $2\Delta_T\le2\sqrt{S_T\ln N}+2$, hence $2\sqrt{L^*\ln N}+O(\ln N)$, with nothing to tune.</li>
+<li>Adaptivity means paying for the difficulty the data actually had, not the difficulty they might have had.</li>
+</ul></div>
+
+<div class="exercises"><h3 id="ch17-ex">Exercises</h3>
+<div class="ex"><span class="q"><b>17.1</b><span class="tag easy">warm-up</span> For finite $\eta_t$, show that $\delta_t=0$ if and only if every expert with positive weight has the same loss in round $t$. What does this say about the sequences on which AdaHedge keeps $\eta_t=\infty$ forever?</span>
+<details class="sol"><summary>Solution</summary><div>$\delta_t=0$ is equality in Jensen's inequality $\E e^{-\eta X}\ge e^{-\eta\E X}$, which holds for the strictly convex exponential iff $X$ is constant on the support of $p_t$. With $\eta_1=\infty$ the weights are uniform over the current leaders; $\Delta$ stays $0$ exactly as long as all leaders take the same loss each round, so Follow the Leader is played until the first round in which the leaders disagree.</div></details></div>
+
+<div class="ex"><span class="q"><b>17.2</b><span class="tag med">core</span> Prove that $\Phi(\eta)=-\frac1\eta\ln\frac1N\sum_ie^{-\eta L_i}$ is nonincreasing in $\eta&gt;0$, with limits $\frac1N\sum_iL_i$ as $\eta\to0$ and $\min_iL_i$ as $\eta\to\infty$.</span>
+<details class="sol"><summary>Solution</summary><div>For $0&lt;\eta&lt;\eta'$, the map $u\mapsto u^{\eta'/\eta}$ is convex, so by Jensen $\big(\frac1N\sum_ie^{-\eta L_i}\big)^{\eta'/\eta}\le\frac1N\sum_ie^{-\eta'L_i}$. Taking $-\frac1{\eta'}\ln$ of both sides reverses the inequality: $\Phi(\eta)\ge\Phi(\eta')$. The limits: $-\frac1\eta\ln\E e^{-\eta L}=\E L-\frac\eta2\mathrm{Var}(L)+O(\eta^2)$ as $\eta\to0$, and $\frac1N e^{-\eta\min L}\le\frac1N\sum e^{-\eta L_i}\le e^{-\eta\min L}$ gives $\min L\le\Phi(\eta)\le\min L+\frac{\ln N}\eta$.</div></details></div>
+
+<div class="ex"><span class="q"><b>17.3</b><span class="tag med">core</span> (Realizable case.) One expert has loss $0$ in every round. Use Corollary 17.7 to bound AdaHedge's regret and compare with Halving (Theorem 1.4) and with Hedge at the rate $\eta=\sqrt{8\ln N/T}$.</span>
+<details class="sol"><summary>Solution</summary><div>$L^*=0$, so AdaHedge's regret (here, its total loss) is at most $5\ln N+4=O(\ln N)$, the same order as Halving's $\log_2N$ mistakes, though Halving is deterministic and exploits the realizability. Hedge tuned for the worst case pays up to $\sqrt{(T/2)\ln N}$, which for $T=2000$, $N=10$ is about $48$ versus AdaHedge's $15.5$. The first-order bound is what recovers the easy case; AdaHedge gets it without being told the case is easy.</div></details></div>
+
+<div class="ex"><span class="q"><b>17.4</b><span class="tag fin-t">finance</span> (A fund of strategies.) $K$ strategies have wealth paths $W_{k,t}$, all starting at $1$. Split capital equally and let each run with no transfers ("buy and hold across strategies"). (a) Show that the fund's wealth satisfies $\ln W_T\ge\max_k\ln W_{k,T}-\ln K$. (b) Show this is EWA with $\eta=1$ on the losses $\ell_{t,k}=-\ln(W_{k,t}/W_{k,t-1})$, and that its mixability gap is zero. (c) In the Chapter 11 demo the universal portfolio is exactly this fund over $K=201$ grid CRPs. Compare $\ln 201$ with the guarantee $1+\ln(T+1)$ of Theorem 11.4 for $T=2520$, and explain what the fund's bound does not cover.</span>
+<details class="sol"><summary>Solution</summary><div>(a) $W_T=\frac1K\sum_kW_{k,T}\ge\frac1K\max_kW_{k,T}$. (b) The fund's weight on strategy $k$ at time $t$ is $W_{k,t-1}/\sum_jW_{j,t-1}=e^{-L_{k,t-1}}/\sum_je^{-L_{j,t-1}}$, which is EWA with $\eta=1$. Its per-round loss is $-\ln(W_t/W_{t-1})=-\ln\sum_kp_{t,k}e^{-\ell_{t,k}}=m_t$: the mix loss itself, so $\delta_t=0$ and Lemma 17.2 gives (a) again. (c) $\ln201\approx5.3$ against $1+\ln2521\approx8.8$. The fund's bound is against the best <em>grid</em> CRP; the continuous best CRP can be slightly better than its nearest grid point, and that discretization error, not the $\ln K$, is what Theorem 11.4's integral handles.</div></details></div>
+
+<div class="ex"><span class="q"><b>17.5</b><span class="tag hard">challenge</span> Derive Corollary 17.7: show that $R\le2\sqrt{(L+R)a}+2$ with $a=\ln N$ implies $R\le2\sqrt{La}+5a+4$.</span>
+<details class="sol"><summary>Solution</summary><div>If $R&lt;2$ there is nothing to prove; otherwise set $x=R-2\ge0$. Squaring, $x^2\le4a(L+x+2)$, i.e. $x^2-4ax-(4aL+8a)\le0$, so $x\le2a+\sqrt{4a^2+4aL+8a}\le2a+2a+2\sqrt{aL}+\sqrt{8a}$, using $\sqrt{u+v+w}\le\sqrt u+\sqrt v+\sqrt w$. Finally $\sqrt{8a}=2\sqrt{2a}\le a+2$ by AM–GM, so $R\le2\sqrt{aL}+5a+4$.</div></details></div>
+</div>
+</section>
+<section class="chapter" id="ch18" data-title="Portfolio selection in practice">
+<div class="ch-head"><div class="eyebrow">Chapter 18</div><h2>Portfolio Selection in Practice</h2>
+<div class="src">Beyond the course · Cover and Ordentlich, "Universal portfolios with side information", <i>IEEE Trans. Inf. Theory</i> 1996 · Blum and Kalai, "Universal portfolios with and without transaction costs", <i>Machine Learning</i> 1999 · MacLean, Thorp and Ziemba (eds.), <i>The Kelly Capital Growth Investment Criterion</i>, 2011</div></div>
+
+<div class="goals"><b>In this chapter</b><ul>
+<li>How to read a regret bound for a portfolio: what $(n-1)\ln T$ promises over ten years of daily data, and why the realised gap is far smaller.</li>
+<li>Transaction costs: a back-of-the-envelope rule for when rebalancing pays, and what survives of the universal guarantee.</li>
+<li>Side information and regime switches: the tools of Chapters 4 and 11 combined.</li>
+<li>Risk: log-optimal is not risk-free, fractional Kelly, and why Sharpe ratios have no regret theory.</li>
+<li>A checklist for using online learning on a trading desk.</li>
+</ul></div>
+
+<h3 id="ch18-reading">18.1 Reading the guarantee</h3>
+<p>Theorem 11.4 promises $\ln W_T(x^*)-\ln W_T(\mathrm{UP})\le(n-1)\ln(T+1)+1$ on every sequence. Put in numbers: ten years of daily data is $T=2520$, and with $n=10$ assets the bound is $9\ln2521+1\approx71.5$ nats. That is a factor $e^{71}$ in wealth, or $7$ nats per year: as a promise about a decade it is empty. Even the minimax-optimal Dirichlet$(\tfrac12)$ version, $\frac{n-1}2\ln(T+1)+\ln2\approx36$, is empty. Yet the Chapter 11 demo, with $n=2$ and a guarantee of $1+\ln2521\approx8.8$, shows a realised gap of a few hundredths. Both facts are true, and the difference between them is the whole art of using these bounds.</p>
+<p>The worst-case bound is attained only by sequences that make the best CRP extremely sharp: price relatives that swing by factors of two, so that a small move away from $x^*$ costs a large fraction of wealth every day. Real daily price relatives lie within a percent or two of $1$, and then $\ln W_T(x)$ is a very flat function of $x$. Exercise 11.5 makes this quantitative by Laplace's method: near an interior maximiser, $\ln W_T(x)\approx\ln W_T(x^*)-\tfrac T2(x-x^*)^\top\Sigma(x-x^*)$ with $\Sigma$ the sample covariance of the price relatives, and averaging $W_T(x)$ over the simplex gives</p>
+$$\ln W_T(x^*)-\ln W_T(\mathrm{UP})\;\approx\;\frac{n-1}2\ln\frac{T\sigma^2}{2\pi}+O(1),$$
+<p>where $\sigma^2$ is the scale of the daily variance. The effective horizon is not $T$ but $T\sigma^2$, the number of days times the daily variance: for equities $\sigma\approx1.5\%$ per day, so $T\sigma^2\approx0.57$ over the decade and the logarithm is not even positive. The universal portfolio is within $O(1)$ nats of the best CRP on realistic data, because the best CRP is barely identifiable from the data in the first place.</p>
+<div class="box warn"><span class="lbl">Two readings of one bound</span>
+<p>As a <em>guarantee</em>, $(n-1)\ln T$ says: whatever happens, including a crash engineered against you, you lose at most this much log-wealth to the best rebalancing rule. As a <em>prediction</em> of the realised gap on ordinary data it is useless, and should not be used to size positions or set expectations. The same is true of every bound in this book: they are insurance, and the premium is that the algorithm hedges across comparators it will not need. Whether the insurance is worth its price is an empirical question about your market, not a theorem.</p>
+</div>
+
+<h3 id="ch18-costs">18.2 Transaction costs</h3>
+<p>A CRP trades every day, so the benchmark of Chapter 11 is itself expensive. To see when rebalancing pays, take two assets, cash and a stock with weight $b$, and a proportional cost $c$ per unit of wealth traded (a round trip of $10$ basis points is $c=0.001$). If the stock's price relative is $x$, the stock weight drifts to $bx/(1-b+bx)$ and restoring it trades a fraction</p>
+$$\tau(x)=\frac{b(1-b)\,\abs{x-1}}{1-b+bx}\;\approx\;b(1-b)\abs{x-1}$$
+<p>of wealth (Exercise 18.3). Over an interval of length $\Delta t$ years with annual volatility $\sigma$, $\abs{x-1}$ is about $\sigma\sqrt{\Delta t}\,\abs Z$ with $Z$ standard normal and $\E\abs Z=\sqrt{2/\pi}$, so rebalancing every $\Delta t$ costs about $c\,b(1-b)\sigma\sqrt{2/\pi}/\sqrt{\Delta t}$ per year. Against this, the volatility-pumping gain of Example 11.3 in continuous time is the <em>excess growth rate</em> $\tfrac12b(1-b)\sigma^2$ per year, which to first order does not depend on how often you rebalance. Rebalancing therefore pays when</p>
+$$\tfrac12b(1-b)\sigma^2\;&gt;\;\frac{c\,b(1-b)\sigma\sqrt{2/\pi}}{\sqrt{\Delta t}}\quad\Longleftrightarrow\quad\Delta t\;&gt;\;\frac{8c^2}{\pi\sigma^2}.$$
+<div class="box example"><span class="lbl">Example 18.1 <i>(how often to rebalance)</i></span>
+<p>With $\sigma=25\%$: at $c=10$ bp the threshold is $\Delta t\approx0.01$ trading days, so daily rebalancing is comfortably profitable (cost $\approx0.08\%$ of the $0.78\%$ annual pumping gain at $b=\tfrac12$). At $c=1\%$, which is realistic for small stocks or retail spreads, the threshold is $\Delta t\approx1$ trading day: daily rebalancing exactly breaks even and weekly is better. The first-order model says "rebalance as rarely as possible", which is wrong at long horizons because the weights then drift far from $b$ and the excess growth is lost. The practical compromise is a no-trade band: rebalance only when a weight drifts more than some threshold from target, which is what the continuous-time analysis of Davis and Norman (1990) recommends for proportional costs.</p>
+</div>
+<p>What survives of universality? Blum and Kalai (1999) showed that Cover's mixture still works with proportional costs: charge every sub-account its own costs and hold the wealth-weighted average, and the regret against the best CRP <em>net of its own costs</em> stays $O(n\ln T)$, with a constant that grows with $c$. Two practical remarks. First, the comparator changes: against a cost-aware benchmark, buy-and-hold (which never trades) becomes competitive, and a universal algorithm over the pair {best CRP, buy-and-hold} hedges the question of whether pumping beats costs. Second, the FTRL view of Chapter 10 gives a cleaner handle: a regularizer that penalises $\norm{x_{t+1}-x_t}_1$, the turnover, is a transaction-cost model, and the learning rate $\eta$ is literally a turnover budget (Section 10.4's finance box).</p>
+
+<h3 id="ch18-side">18.3 Side information and regimes</h3>
+<p>Investors condition on things: the level of volatility, the sign of last month's return, the state of the yield curve. Cover and Ordentlich (1996) showed that universality survives conditioning at a price linear in the number of states.</p>
+<div class="box thm"><span class="lbl">Proposition 18.2 <i>(side information)</i></span>
+<p>Let $y_t\in\{1,\dots,k\}$ be a state announced before day $t$'s prices. Run a separate universal portfolio for each state, applied on the days that state occurs. Against the best state-dependent CRP $\{x^*_y\}_{y\le k}$,</p>
+$$\sum_y\ln W_{T_y}(x^*_y)-\ln W_T(\mathrm{UP}_{\text{side}})\;\le\;k(n-1)\ln\Big(\frac Tk+1\Big)+k,$$
+<p>where $T_y$ is the number of days in state $y$.</p>
+</div>
+<div class="proof"><span class="lbl">Proof.</span>
+<p>Wealth multiplies day by day, so both the side-information algorithm and the state-dependent CRP have final wealth equal to the product over states of the wealth earned on that state's subsequence. Theorem 11.4 on each subsequence gives regret at most $(n-1)\ln(T_y+1)+1$; sum over $y$ and use concavity of $\ln$ with $\sum_yT_y=T$.</p>
+</div>
+<p>With $k$ states the effective sample per state shrinks, so the price of conditioning is the same "$\ln$ of the number of hypotheses" that runs through the book. A large $k$ is a large library of hypotheses, and Chapter 5's warning applies: the best state-dependent CRP in hindsight will look better than it is by roughly the regret bound.</p>
+<p><em>Regime switches</em> are the dual situation: the state is not announced, and the best portfolio changes at unknown times. Chapter 4's Fixed Share over a grid of CRPs (or Cover's mixture with a switching prior, Singer 1997) competes with the best sequence of CRPs that switches $k$ times at a cost of order $k\,n\ln T$: each switch costs the $\ln(\text{grid size})$ of choosing a new CRP plus the $\ln T$ of choosing when. Exercise 17.4 shows the grid mixture is a fund of strategies; Fixed Share adds a slow leak of capital from every strategy to every other, which is the cost of staying ready for a change.</p>
+
+<h3 id="ch18-risk">18.4 Log-optimal is not risk-free</h3>
+<p>Maximising growth (Proposition 11.1) is the right objective for a very long horizon and an investor who cares only about terminal wealth. Along the way it is violent. Take a stock with excess drift $\mu$ and volatility $\sigma$, so the Sharpe ratio is $\theta=\mu/\sigma$; the Kelly investor holds the fraction $\mu/\sigma^2$ in the stock, the log-wealth then has drift $\tfrac12\theta^2$ and volatility $\theta$, and a fraction $\varphi$ of the Kelly position ("fractional Kelly") has drift $(\varphi-\tfrac12\varphi^2)\theta^2$ and volatility $\varphi\theta$.</p>
+<div class="box thm"><span class="lbl">Proposition 18.3 <i>(drawdown of fractional Kelly)</i></span>
+<p>Under this model, the probability that a fractional-Kelly investor's wealth ever falls to a fraction $a\in(0,1)$ of its starting value is $a^{(2-\varphi)/\varphi}$, and the growth rate is the fraction $\varphi(2-\varphi)$ of the Kelly rate.</p>
+</div>
+<div class="proof"><span class="lbl">Proof.</span>
+<p>Log-wealth is a Brownian motion with drift $\nu=(\varphi-\tfrac12\varphi^2)\theta^2&gt;0$ and volatility $s=\varphi\theta$. The probability that such a process ever reaches the level $\ln a&lt;0$ is $e^{-2\nu\abs{\ln a}/s^2}=a^{2\nu/s^2}$ (the gambler's-ruin formula, from the martingale $e^{-2\nu X_t/s^2}$ and optional stopping), and $2\nu/s^2=(2\varphi-\varphi^2)/\varphi^2=(2-\varphi)/\varphi$. The growth rate is $\nu$, and $\nu/(\tfrac12\theta^2)=\varphi(2-\varphi)$.</p>
+</div>
+<div class="tbl"><table>
+<thead><tr><th>Kelly fraction $\varphi$</th><th>Growth (share of Kelly)</th><th>P(ever halve)</th><th>P(ever lose 90%)</th></tr></thead>
+<tbody>
+<tr><td class="num">1 (full Kelly)</td><td>100%</td><td>50%</td><td>10%</td></tr>
+<tr><td class="num">1/2</td><td>75%</td><td>12.5%</td><td>0.1%</td></tr>
+<tr><td class="num">1/4</td><td>44%</td><td>0.8%</td><td>$10^{-7}$</td></tr>
+</tbody></table></div>
+<p>Full Kelly halves its money with probability one half at some point. Half Kelly keeps three quarters of the growth and cuts that risk to one in eight, which is why practitioners who use the criterion at all mostly use a fraction of it (Thorp 2006). Everything in Chapter 11 applies to fractional Kelly: mixing the universal portfolio with cash in fixed proportion is still a CRP-type strategy, and the regret bound is unchanged because the comparator class shrinks with it.</p>
+<div class="box warn"><span class="lbl">No regret bounds for Sharpe ratios</span>
+<p>Regret theory works because losses add up over rounds, so a per-round potential can control the sum. A Sharpe ratio, mean over standard deviation, is not additive: adding a round can raise it or lower it depending on all the previous rounds. Even-Dar, Kearns and Wortman (2006) showed that no algorithm can guarantee vanishing regret in Sharpe ratio against the best expert on every sequence, though mean–variance objectives admit weaker guarantees. When a mandate is written in Sharpe ratios, online learning can be used for the pieces (forecasts, allocations, growth) but not for the ratio itself.</p>
+</div>
+
+<h3 id="ch18-heuristics">18.5 Heuristics that beat the theory in backtests</h3>
+<p>The algorithms with the best published backtests on the classical datasets (NYSE 1962–84, TSE, S&amp;P 500 subsets) are not the ones with guarantees. Anticor (Borodin, El-Yaniv and Gogan 2004) moves capital from stocks that went up to correlated stocks that went down; PAMR (Li, Zhao, Hoi and Gopalkrishnan 2012) and OLMAR (Li and Hoi 2012) are passive-aggressive and moving-average versions of the same mean-reversion bet, and report wealth multiples in the thousands over two decades of daily data. They are OCO algorithms in form (a projection step on the simplex each day) with no regret guarantee in substance, because the loss they optimise is a prediction of tomorrow's price relative rather than the realised one. Three cautions from the same literature: the returns collapse under realistic transaction costs, because the strategies turn over most of the portfolio daily; the classical datasets are survivorship-biased; and mean reversion at the daily horizon is exactly the kind of regularity that disappears once it is widely traded. They are worth knowing as the empirical foil to Chapter 11: universality buys robustness, not the best backtest.</p>
+
+<h3 id="ch18-checklist">18.6 A checklist</h3>
+<ol>
+<li><b>Choose the comparator before the algorithm.</b> Best single asset, best CRP, best of $K$ strategies, best sequence with $k$ switches: each is a different regret bound and a different insurance policy, and the bound tells you the premium.</li>
+<li><b>Price the library.</b> The $\ln N$ (or $\ln$ of the number of hypotheses) is the data-snooping haircut of Chapter 5; it is the same whether you select by backtest or by an online algorithm, but the online algorithm pays it honestly.</li>
+<li><b>Combine strategies by buy-and-hold, signals by AdaHedge.</b> Reinvesting strategies are mixed at $\eta=1$ (Exercise 17.4); bounded-loss forecasts are mixed with a learned rate (Chapter 17). Add Fixed Share when regimes matter (Chapter 4).</li>
+<li><b>Model costs as regularization.</b> Turnover is $\norm{x_{t+1}-x_t}_1$; FTRL with the matching regularizer and a no-trade band is the implementable version of Section 18.2.</li>
+<li><b>Use curvature when you have it.</b> Log-wealth is exp-concave, so ONS (Section 11.4) gets $O(n\ln T)$ at $O(n^2)$ per day; that is the right tool once $n$ is in the hundreds.</li>
+<li><b>Size positions by risk, not by the bound.</b> Fractional Kelly and drawdown constraints (Section 18.4) come first; the online algorithm chooses the mix within the risk budget.</li>
+<li><b>Treat the realised gap as the object of study.</b> Regret is measurable after the fact. Plot it, as the demos do; a strategy whose regret against a simple comparator is negative and growing is telling you the comparator was the wrong one.</li>
+</ol>
+
+<div class="summary"><span class="lbl">Key takeaways</span><ul>
+<li>$(n-1)\ln T$ is insurance, not a forecast; on real data the effective horizon is $T\sigma^2$ and the realised gap is $O(1)$.</li>
+<li>Rebalancing every $\Delta t$ pays iff $\Delta t\gtrsim8c^2/(\pi\sigma^2)$; universality survives costs, with a cost-aware comparator.</li>
+<li>Side information costs a factor $k$; regime switches cost $k\,n\ln T$.</li>
+<li>Full Kelly halves your money with probability $\tfrac12$; fractional Kelly trades growth for drawdown at a known rate. Sharpe ratios have no regret theory.</li>
+</ul></div>
+
+<div class="exercises"><h3 id="ch18-ex">Exercises</h3>
+<div class="ex"><span class="q"><b>18.1</b><span class="tag fin-t">finance</span> For $n=3$ ETFs and twenty years of daily data, compute the Theorem 11.4 guarantee in nats and as an annualised growth-rate gap. Then estimate the Laplace approximation of Section 18.1 with $\sigma=1\%$ per day. Which number would you show an investment committee?</span>
+<details class="sol"><summary>Solution</summary><div>$T=5040$: the guarantee is $2\ln5041+1\approx18.1$ nats, or $0.9$ nats ($e^{0.9}\approx2.5\times$) per year. Laplace: $T\sigma^2=0.504$, so $\ln(0.504/2\pi)&lt;0$ and the approximation says the gap is $O(1)$, in practice a few tenths of a nat over the whole period. Show the committee the realised regret from a backtest with costs, and quote the $18.1$ only as the worst case the strategy is insured against.</div></details></div>
+
+<div class="ex"><span class="q"><b>18.2</b><span class="tag med">core</span> Prove that the bound of Proposition 18.2 is maximised, for fixed $T$, when the states are equally frequent, and show how the same argument gives a side-information version of any of the regret bounds in this book.</span>
+<details class="sol"><summary>Solution</summary><div>$\sum_y\ln(T_y+1)$ is a concave function of $(T_y)$ on the simplex $\sum T_y=T$, so it is maximised at $T_y=T/k$. In general, if an algorithm has regret $\rho(T)$ with $\rho$ concave, running one copy per state gives regret at most $\sum_y\rho(T_y)\le k\rho(T/k)$ against the best state-dependent comparator; for $\rho(T)=\sqrt{(T/2)\ln N}$ this is $\sqrt{kT\ln N/2}$, the familiar $\sqrt k$ price of conditioning.</div></details></div>
+
+<div class="ex"><span class="q"><b>18.3</b><span class="tag fin-t">finance</span> Derive the turnover formula $\tau(x)=b(1-b)\abs{x-1}/(1-b+bx)$, and redo Example 18.1 for a bond ETF with $\sigma=6\%$ and $c=5$ bp.</span>
+<details class="sol"><summary>Solution</summary><div>After the move the stock is worth $bx$ out of $1-b+bx$, so its weight is $b'=bx/(1-b+bx)$ and the trade needed is $\abs{b-b'}=\frac{\abs{b(1-b+bx)-bx}}{1-b+bx}=\frac{b(1-b)\abs{1-x}}{1-b+bx}$. Threshold: $8c^2/(\pi\sigma^2)=8\cdot(5\times10^{-4})^2/(\pi\cdot0.0036)\approx1.8\times10^{-4}$ years, about $0.04$ trading days: at this volatility and cost, daily rebalancing pays easily, but the whole pumping gain at $b=\tfrac12$ is only $\tfrac12\cdot\tfrac14\cdot0.0036=0.045\%$ per year, so nothing much is at stake either way.</div></details></div>
+
+<div class="ex"><span class="q"><b>18.4</b><span class="tag fin-t">finance</span> A strategy has Sharpe ratio $\theta=0.8$ per year. (a) What Kelly fraction $\varphi$ keeps the probability of ever losing $30\%$ below $5\%$? (b) What share of the Kelly growth rate does it retain, and what is that growth rate in percent per year?</span>
+<details class="sol"><summary>Solution</summary><div>(a) Need $0.7^{(2-\varphi)/\varphi}\le0.05$, i.e. $(2-\varphi)/\varphi\ge\ln0.05/\ln0.7=8.40$, so $\varphi\le2/9.40=0.213$. (b) Growth share $\varphi(2-\varphi)=0.38$; the Kelly rate is $\tfrac12\theta^2=0.32$ per year, so the strategy grows at about $12\%$ per year (in the model, before costs), with volatility $\varphi\theta=17\%$.</div></details></div>
+
+<div class="ex"><span class="q"><b>18.5</b><span class="tag hard">challenge</span> (Effective horizon.) Two assets, price relatives $r_t=(1,x_t)$ with $x_t=1+\eps_t$, $\abs{\eps_t}\ll1$. Show that $\ln W_T(b)=\sum_t\ln(1+b\eps_t)\approx b\sum_t\eps_t-\tfrac{b^2}2\sum_t\eps_t^2$, that the best CRP is $b^*\approx\sum\eps_t/\sum\eps_t^2$ (clipped to $[0,1]$), and that if $b^*$ is interior the universal portfolio's regret is $\approx\tfrac12\ln\big(\tfrac{T\hat\sigma^2}{2\pi}\big)$ with $\hat\sigma^2=\tfrac1T\sum\eps_t^2$. What happens when $b^*$ sits at the boundary?</span>
+<details class="sol"><summary>Solution</summary><div>Second-order Taylor expansion of $\ln(1+b\eps)$ gives the quadratic; its maximiser is the stated ratio. Writing $Q=\sum\eps_t^2=T\hat\sigma^2$, $\ln W_T(b)\approx\ln W_T(b^*)-\tfrac Q2(b-b^*)^2$, so $W_T(\mathrm{UP})=\int_0^1W_T(b)\,db\approx W_T(b^*)\sqrt{2\pi/Q}$ when the Gaussian bump fits inside $[0,1]$, giving regret $\tfrac12\ln(Q/2\pi)$. If $b^*$ is at $0$ or $1$ the integral covers only half a bump (or a tail), the regret is larger by $\ln2$ or grows like $\ln(Q\cdot\text{slope})$ instead; this is the "concentrated best CRP" case of Chapter 11's reality check, where the universal portfolio must keep hedging toward an asset that never pays.</div></details></div>
+</div>
+</section>
+<div class="part-title" id="part8"><div class="pn">Back matter</div><h2>Toolkit, Reading and Projects</h2><p>The probabilistic and convex-analytic facts used throughout, and where to go next.</p></div>
 
 <section class="chapter" id="appA" data-title="Mathematical toolkit" data-num="A">
 <div class="ch-head"><div class="eyebrow">Appendix A</div><h2>Mathematical Toolkit</h2></div>
@@ -1892,6 +2138,7 @@ $$\Reg^{\mathrm{swap}}_T\;\le\;\sum_{i=1}^N\Reg_T(A_i)\;=\;O\big(\sqrt{NT\ln N}\
 <tr><td>Bandit linear optimization</td><td>SCRiBLe</td><td>$O(d\sqrt{\theta T\ln T})$</td><td>14</td></tr>
 <tr><td>Approachability</td><td>Blackwell</td><td>distance $B/\sqrt T$</td><td>15</td></tr>
 <tr><td>Swap regret</td><td>Blum–Mansour</td><td>$O(\sqrt{NT\ln N})$</td><td>16</td></tr>
+<tr><td>Hedge, no tuning</td><td>AdaHedge</td><td>$2\sqrt{L^*\ln N}+5\ln N+4$</td><td>17</td></tr>
 </tbody></table></div>
 </section>
 
@@ -1919,6 +2166,7 @@ $$\Reg^{\mathrm{swap}}_T\;\le\;\sum_{i=1}^N\Reg_T(A_i)\;=\;O\big(\sqrt{NT\ln N}\
 <li><b>Ch. 12.</b> DeMarzo, Kremer and Mansour, "Online trading algorithms and robust option pricing", STOC 2006. Abernethy, Frongillo and Wibisono, "Minimax option pricing meets Black–Scholes in the limit", STOC 2012. Abernethy, Bartlett, Frongillo and Wibisono, "How to hedge an option against an adversary: Black–Scholes pricing is minimax optimal", NeurIPS 2013.</li>
 <li><b>Ch. 13–14.</b> Auer, Cesa-Bianchi and Fischer, "Finite-time analysis of the multiarmed bandit problem", <i>Machine Learning</i> 2002. Auer, Cesa-Bianchi, Freund and Schapire, "The nonstochastic multiarmed bandit problem", <i>SIAM J. Comput.</i> 2002. Abernethy, Hazan and Rakhlin, "Competing in the dark: an efficient algorithm for bandit linear optimization", COLT 2008.</li>
 <li><b>Ch. 15–16.</b> Blackwell, "An analog of the minimax theorem for vector payoffs", <i>Pacific J. Math.</i> 1956. Abernethy, Bartlett and Hazan, "Blackwell approachability and no-regret learning are equivalent", COLT 2011. Foster and Vohra, "Asymptotic calibration", <i>Biometrika</i> 1998. Hart and Mas-Colell, "A simple adaptive procedure leading to correlated equilibrium", <i>Econometrica</i> 2000. Blum and Mansour, "From external to internal regret", <i>JMLR</i> 2007.</li>
+<li><b>Ch. 17–18.</b> De Rooij, van Erven, Grünwald and Koolen, "Follow the leader if you can, Hedge if you must", <i>JMLR</i> 2014. Cesa-Bianchi, Mansour and Stoltz, "Improved second-order bounds for prediction with expert advice", <i>Machine Learning</i> 2007. Koolen and van Erven, "Second-order quantile methods for experts and combinatorial games", COLT 2015. Orabona and Pál, "Coin betting and parameter-free online learning", NIPS 2016. Cover and Ordentlich, "Universal portfolios with side information", <i>IEEE Trans. Inf. Theory</i> 1996. Even-Dar, Kearns and Wortman, "Risk-sensitive online learning", ALT 2006. Thorp, "The Kelly criterion in blackjack, sports betting, and the stock market", in <i>Handbook of Asset and Liability Management</i>, 2006.</li>
 </ul>
 
 <h3 id="appB-projects">B.3 Project ideas with a finance angle</h3>
@@ -2054,6 +2302,48 @@ $$\Reg^{\mathrm{swap}}_T\;\le\;\sum_{i=1}^N\Reg_T(A_i)\;=\;O\big(\sqrt{NT\ln N}\
     document.getElementById('up-read').textContent='Best CRP in hindsight holds '+(bstar*100).toFixed(0)+'% stock. Final wealth multiples: universal '+Math.exp(up[T]).toFixed(2)+'×, best CRP '+Math.exp(best[T]).toFixed(2)+'×, stock '+Math.exp(stock[T]).toFixed(2)+'×. Log-wealth gap '+(best[T]-up[T]).toFixed(2)+' versus the guarantee 1 + ln(T+1) = '+(1+Math.log(T+1)).toFixed(2)+'.';
   }
 
+  /* ---------- AdaHedge demo ---------- */
+  var A={seed:7};
+  function adaRun(){
+    var el=document.getElementById('ada-canvas'); if(!el)return;
+    var eta=Math.pow(10,+document.getElementById('ada-eta').value), N=+document.getElementById('ada-n').value, T=2000;
+    document.getElementById('ada-eta-o').textContent=eta<0.1?eta.toFixed(3):eta.toFixed(2);
+    document.getElementById('ada-n-o').textContent=N;
+    var r=rng(A.seed), phase=[], per=[], base=[], lnN=Math.log(N);
+    for(var i=0;i<N;i++){phase.push(r()*6.283);per.push(200+r()*600);base.push(0.5+(i===0?-0.04:0));}
+    var L=new Float64Array(N), Lh=0, La=0, delta=0, S=0, regH=[], regA=[], bnd=[], etaA=Infinity;
+    for(var t=1;t<=T;t++){
+      var minL=Infinity, lead=0; for(i=0;i<N;i++){if(L[i]<minL){minL=L[i];lead=i;}}
+      var loss=new Float64Array(N);
+      for(i=0;i<N;i++){var m=base[i]+0.12*Math.sin(t*6.283/per[i]+phase[i]); loss[i]=r()<m?1:0;}
+      if(r()<0.25){loss[lead]=1;}
+      /* fixed-rate Hedge */
+      var wsum=0, w=new Float64Array(N); for(i=0;i<N;i++){w[i]=Math.exp(-eta*(L[i]-minL));wsum+=w[i];}
+      var pl=0; for(i=0;i<N;i++)pl+=w[i]/wsum*loss[i]; Lh+=pl;
+      /* AdaHedge: eta_t = ln N / Delta_{t-1} */
+      etaA=delta>0?lnN/delta:Infinity;
+      var p=new Float64Array(N), ps=0, h=0, s2=0, mix;
+      if(isFinite(etaA)){
+        for(i=0;i<N;i++){p[i]=Math.exp(-etaA*(L[i]-minL));ps+=p[i];}
+        var z=0; for(i=0;i<N;i++){p[i]/=ps;h+=p[i]*loss[i];s2+=p[i]*loss[i]*loss[i];z+=p[i]*Math.exp(-etaA*loss[i]);}
+        mix=-Math.log(z)/etaA;
+      }else{
+        var nl=0; for(i=0;i<N;i++)if(L[i]===minL)nl++;
+        var mn=Infinity; for(i=0;i<N;i++)if(L[i]===minL){h+=loss[i]/nl;s2+=loss[i]/nl;if(loss[i]<mn)mn=loss[i];}
+        mix=mn;
+      }
+      La+=h; delta+=h-mix; S+=s2;
+      for(i=0;i<N;i++)L[i]+=loss[i];
+      var best=Infinity; for(i=0;i<N;i++)if(L[i]<best)best=L[i];
+      regH.push(Lh-best); regA.push(La-best); bnd.push(2*Math.sqrt(S*lnN)+2);
+    }
+    var bmax=Math.max.apply(null,regH.concat(regA))*1.15;
+    var bshow=bnd.map(function(b){return b>bmax?NaN:b;});
+    plot(el,[{data:regH,color:'--faint',width:1.5},{data:bshow,color:'--gold',dash:[5,4]},{data:regA,color:'--accent'}],
+      {zero:true,ylabel:'regret',xticks:[0,499,999,1499,1999],xlabel:function(i){return String(i+1);}});
+    document.getElementById('ada-read').textContent='After '+T+' rounds: AdaHedge regret '+regA[T-1].toFixed(1)+' with final learning rate η_T = '+(isFinite(etaA)?etaA.toFixed(3):'∞')+'; Hedge at the fixed η = '+eta.toFixed(3)+' has regret '+regH[T-1].toFixed(1)+'. The rate tuned with T known would be √(8 ln N / T) = '+Math.sqrt(8*lnN/T).toFixed(3)+'.';
+  }
+
   window.fitWideMath=function(){
     document.querySelectorAll('mjx-container:not([display="true"])').forEach(function(m){
       m.classList.remove('wide-inline');
@@ -2061,9 +2351,11 @@ $$\Reg^{\mathrm{swap}}_T\;\le\;\sum_{i=1}^N\Reg_T(A_i)\;=\;O\big(\sqrt{NT\ln N}\
       if(m.getBoundingClientRect().width>par.clientWidth-4){m.classList.add('wide-inline');}
     });
   };
-  function redrawAll(){hedgeRun();upRun();if(window.MathJax&&MathJax.startup&&MathJax.startup.document)window.fitWideMath();}
+  function redrawAll(){hedgeRun();adaRun();upRun();if(window.MathJax&&MathJax.startup&&MathJax.startup.document)window.fitWideMath();}
   ['hedge-eta','hedge-n'].forEach(function(id){var e=document.getElementById(id); if(e)e.addEventListener('input',hedgeRun);});
   var hb=document.getElementById('hedge-run'); if(hb)hb.addEventListener('click',function(){H.seed++;hedgeRun();});
+  ['ada-eta','ada-n'].forEach(function(id){var e=document.getElementById(id); if(e)e.addEventListener('input',adaRun);});
+  var ab=document.getElementById('ada-run'); if(ab)ab.addEventListener('click',function(){A.seed++;adaRun();});
   ['up-vol','up-drift'].forEach(function(id){var e=document.getElementById(id); if(e)e.addEventListener('input',upRun);});
   var ub=document.getElementById('up-run'); if(ub)ub.addEventListener('click',function(){U.seed++;upRun();});
   var mq=window.matchMedia('(prefers-color-scheme: dark)'); if(mq.addEventListener)mq.addEventListener('change',redrawAll);
